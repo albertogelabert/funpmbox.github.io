@@ -1,5 +1,7 @@
 PMBOX web portal
 =============================
+This repository contains the web portal for the PMBOX project.
+
 
 ## System Preparation
 
