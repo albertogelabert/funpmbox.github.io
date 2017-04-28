@@ -1,7 +1,156 @@
 @import "reset";
 @import "syntax";
 @import "grid";
+@import "colors";
 
 body {
-    background: blue;
+    background: $background;
+    min-height: 150vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fadein{
+  animation: fadein 2s;
+}
+
+.button {
+  //background-color: green;
+  width: 250px;
+  color: white;
+  margin: 0 auto;
+  padding: 3px;
+  border-radius: 50px;
+  color: white;
+  border: 1px solid white;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+  margin-top: 10vh;
+  &:hover {
+      transform: scale(1.02);
+      color: $blue;
+      border: 1px solid $blue;
+  }
+
+}
+
+.header {
+  text-align: left;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+
+  .text{
+    padding: 8%;
+    padding-top: 20vh;
+    padding-bottom: 0px;
+    box-shadow: 13px 13px 160px  50px rgba(0,0,0,0.5);
+    background-color: $black;
+    height: 100vh;
+    animation: leftpop 0.5s;
+
+
+
+    h1{
+      font-size: 250%;
+      animation: fadein 0.8s;
+    }
+
+    p{
+      font-size: 125%;
+      line-height: 200%;
+      animation: fadein 1.5s;
+
+    }
+
+
+  }
+
+  .image {
+    margin: 0px;
+    padding: 0px;
+
+    z-index: -1;
+    border-color: $black;
+
+
+    img {
+      -moz-object-fit: cover;
+      -webkit-object-fit: cover;
+      -ms-object-fit: cover;
+      object-fit: cover;
+      -moz-object-position: center;
+      -webkit-object-position: center;
+      -ms-object-position: center;
+      object-position: center;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 0;
+      z-index: -1;
+      animation: fadein 1s;
+
+    }
+  }
+
+}
+
+.footer {
+background-color: $footer;
+min-height: 300px;
+
+color: red;
+
+}
+
+@keyframes leftpop {
+    from {
+        transform: translateX(-10vw);
+    }
+    to {
+        transform: translateX(1);
+    } }
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.card{
+  width: 100%;
+  height: 400px;
+  img{
+    height: 400px;
+  }
 }

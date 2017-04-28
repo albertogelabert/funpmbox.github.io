@@ -974,4 +974,116 @@ a:visited {
         left: 100%; } }
 
 body {
-  background: blue; }
+  background: #ecf0f1;
+  min-height: 150vh;
+  font-family: 'Roboto', sans-serif; }
+
+.fadein {
+  -webkit-animation: fadein 2s;
+          animation: fadein 2s; }
+
+.button {
+  width: 250px;
+  color: white;
+  margin: 0 auto;
+  padding: 3px;
+  border-radius: 50px;
+  color: white;
+  border: 1px solid white;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+  margin-top: 10vh; }
+  .button:hover {
+    -webkit-transform: scale(1.02);
+            transform: scale(1.02);
+    color: #47D3E5;
+    border: 1px solid #47D3E5; }
+
+.header {
+  text-align: left;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  color: white; }
+  .header .text {
+    padding: 8%;
+    padding-top: 20vh;
+    padding-bottom: 0px;
+    box-shadow: 13px 13px 160px 50px rgba(0, 0, 0, 0.5);
+    background-color: #30363d;
+    height: 100vh;
+    -webkit-animation: leftpop 0.5s;
+            animation: leftpop 0.5s; }
+    .header .text h1 {
+      font-size: 250%;
+      -webkit-animation: fadein 0.8s;
+              animation: fadein 0.8s; }
+    .header .text p {
+      font-size: 125%;
+      line-height: 200%;
+      -webkit-animation: fadein 1.5s;
+              animation: fadein 1.5s; }
+  .header .image {
+    margin: 0px;
+    padding: 0px;
+    z-index: -1;
+    border-color: #30363d; }
+    .header .image img {
+      -moz-object-fit: cover;
+      -webkit-object-fit: cover;
+      -ms-object-fit: cover;
+      object-fit: cover;
+      -moz-object-position: center;
+      -webkit-object-position: center;
+      -ms-object-position: center;
+      object-position: center;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 0;
+      z-index: -1;
+      -webkit-animation: fadein 1s;
+              animation: fadein 1s; }
+
+.footer {
+  background-color: #95a5a6;
+  min-height: 300px;
+  color: red; }
+
+@-webkit-keyframes leftpop {
+  from {
+    -webkit-transform: translateX(-10vw);
+            transform: translateX(-10vw); }
+  to {
+    -webkit-transform: translateX(1);
+            transform: translateX(1); } }
+
+@keyframes leftpop {
+  from {
+    -webkit-transform: translateX(-10vw);
+            transform: translateX(-10vw); }
+  to {
+    -webkit-transform: translateX(1);
+            transform: translateX(1); } }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.card {
+  width: 100%;
+  height: 400px; }
+  .card img {
+    height: 400px; }
