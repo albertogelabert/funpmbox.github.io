@@ -1093,13 +1093,15 @@ a {
 
 .card {
   transition: all 0.2s ease-in-out;
+  z-index: 1;
   background-color: #444d57;
   height: 50vh; }
   .card:hover {
     -webkit-transform: scale(1.02);
             transform: scale(1.02);
     box-shadow: 12px 12px 150px #2b2b2b;
-    z-index: 4; }
+    z-index: 2;
+    position: relative; }
   .card .thumbnail {
     height: 50vh;
     overflow: hidden; }
@@ -1108,8 +1110,7 @@ a {
       padding: 0px;
       width: 100%;
       -webkit-transform: scale(1.2);
-              transform: scale(1.2);
-      z-index: -1; }
+              transform: scale(1.2); }
   .card .description {
     text-align: left;
     padding: 30px; }
