@@ -974,9 +974,19 @@ a:visited {
         left: 100%; } }
 
 body {
-  background: #ecf0f1;
+  background: #2e333a;
   min-height: 150vh;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  color: white; }
+
+a {
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+  color: white; }
+  a:hover {
+    color: #47D3E5; }
+  a:visited {
+    color: #e6e6e6; }
 
 .fadein {
   -webkit-animation: fadein 2s;
@@ -988,7 +998,6 @@ body {
   margin: 0 auto;
   padding: 3px;
   border-radius: 50px;
-  color: white;
   border: 1px solid white;
   transition: all 0.5s ease-in-out;
   text-align: center;
@@ -1083,7 +1092,33 @@ body {
     opacity: 1; } }
 
 .card {
-  width: 100%;
-  height: 400px; }
-  .card img {
-    height: 400px; }
+  transition: all 0.2s ease-in-out;
+  background-color: #444d57;
+  height: 50vh; }
+  .card:hover {
+    -webkit-transform: scale(1.02);
+            transform: scale(1.02);
+    box-shadow: 12px 12px 150px #2b2b2b;
+    z-index: 4; }
+  .card .thumbnail {
+    height: 50vh;
+    overflow: hidden; }
+    .card .thumbnail img {
+      height: 50vh;
+      padding: 0px;
+      width: 100%;
+      -webkit-transform: scale(1.2);
+              transform: scale(1.2);
+      z-index: -1; }
+  .card .description {
+    text-align: left;
+    padding: 30px; }
+    .card .description h1 {
+      font-size: 250%;
+      -webkit-animation: fadein 0.8s;
+              animation: fadein 0.8s; }
+    .card .description p {
+      font-size: 125%;
+      line-height: 200%;
+      -webkit-animation: fadein 1.5s;
+              animation: fadein 1.5s; }

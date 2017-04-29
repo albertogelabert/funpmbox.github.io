@@ -4,9 +4,26 @@
 @import "colors";
 
 body {
-    background: $background;
+    background: darken($black,1);
     min-height: 150vh;
     font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+a{
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+  color: white;
+
+  &:hover {
+      color: $blue;
+  }
+
+  &:visited {
+      color: darken(white, 10);
+  }
+
+
 }
 
 .fadein{
@@ -20,7 +37,6 @@ body {
   margin: 0 auto;
   padding: 3px;
   border-radius: 50px;
-  color: white;
   border: 1px solid white;
   transition: all 0.5s ease-in-out;
   text-align: center;
@@ -138,19 +154,44 @@ color: red;
         opacity:1;
     }
 }
-@-o-keyframes fadein { /* Opera */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity: 1;
-    }
-}
 
 .card{
-  width: 100%;
-  height: 400px;
-  img{
-    height: 400px;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+      transform: scale(1.02);
+      box-shadow: 12px 12px 150px lighten(black,17);
+      z-index: 4;
   }
+  background-color: lighten($black, 9);
+  height: 50vh;
+  .thumbnail{
+    height: 50vh;
+    overflow: hidden;
+    img{
+      height: 50vh;
+      padding: 0px;
+      width: 100%;
+      transform: scale(1.2);
+      z-index: -1;
+    }
+  }
+
+  .description{
+    text-align: left;
+    padding: 30px;
+
+    h1{
+      font-size: 250%;
+      animation: fadein 0.8s;
+    }
+
+    p{
+      font-size: 125%;
+      line-height: 200%;
+      animation: fadein 1.5s;
+
+    }
+
+  }
+
 }
