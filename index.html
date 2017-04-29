@@ -1,13 +1,40 @@
 ---
-layout: default
-title: Your New Jekyll Site
+layout: home
+title: Fun PMBOX
 ---
 
-<div id="home">
+<!--<div id="home">
   <h1>Blog Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
+</div>-->
+
+{% for post in site.posts %}
+<div class="card">
+
+  <div class="row">
+
+    <div class="col s12 m4 thumbnail ">
+      <img src="http://www.funretrospectives.com/wp-content/uploads/2016/05/hero-journey-futurospective1.jpg" alt="">
+    </div>
+
+      <div class="col s12 m8 description">
+          <!--<span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>-->
+          <a href="{{post.url}}"><h1>{{post.title}}</h1></a>
+          <p>{{post.description}}</p>
+          <a href="{{post.url}}">
+            <div class="button">
+              <p>JUGAR</p>
+            </div>
+          </a>
+      </div>
+
+
+  </div>
+
 </div>
+
+{% endfor %}
