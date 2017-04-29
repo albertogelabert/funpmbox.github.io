@@ -157,10 +157,12 @@ color: red;
 
 .card{
   transition: all 0.2s ease-in-out;
+    z-index: 1;
   &:hover {
       transform: scale(1.02);
       box-shadow: 12px 12px 150px lighten(black,17);
-      z-index: 4;
+      z-index: 2;
+      position: relative;
   }
   background-color: lighten($black, 9);
   height: 50vh;
@@ -172,7 +174,6 @@ color: red;
       padding: 0px;
       width: 100%;
       transform: scale(1.2);
-      z-index: -1;
     }
   }
 
