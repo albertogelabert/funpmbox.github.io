@@ -10,6 +10,8 @@ body {
     color: white;
 }
 
+
+
 a{
   text-decoration: none;
   transition: color 0.3s ease-in-out;
@@ -40,9 +42,7 @@ a{
   border: 1px solid white;
   transition: all 0.5s ease-in-out;
   text-align: center;
-  margin-top: 10vh;
   &:hover {
-      transform: scale(1.02);
       color: $blue;
       border: 1px solid $blue;
   }
@@ -50,20 +50,39 @@ a{
 }
 
 .header {
+
+  z-index: 1;
+  position: relative;
+
+  background-image: url("https://images.unsplash.com/photo-1443996104801-80c82e789b18?dpr=1&auto=format&fit=crop&w=767&h=510&q=80&cs=tinysrgb&crop=&bg=");
+  background-size: cover;
+  min-height: 100vh;
+
   text-align: left;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   overflow: hidden;
   color: white;
 
+  .button{
+    margin-bottom: 10vh;
+  }
+
+
   .text{
-    padding: 8%;
-    padding-top: 20vh;
-    padding-bottom: 0px;
+    margin: 0 auto;
+    padding: 40px;
+    min-height: 100vh;
+    margin-bottom: -20px;
     box-shadow: 13px 13px 160px  50px rgba(0,0,0,0.5);
     background-color: $black;
-    height: 100vh;
     animation: leftpop 0.5s;
+
+    .button {
+
+      margin-top: 10vh;
+    }
 
 
 
@@ -82,35 +101,6 @@ a{
 
   }
 
-  .image {
-    margin: 0px;
-    padding: 0px;
-
-    z-index: -1;
-    border-color: $black;
-
-
-    img {
-      -moz-object-fit: cover;
-      -webkit-object-fit: cover;
-      -ms-object-fit: cover;
-      object-fit: cover;
-      -moz-object-position: center;
-      -webkit-object-position: center;
-      -ms-object-position: center;
-      object-position: center;
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      border-radius: 0;
-      z-index: -1;
-      animation: fadein 1s;
-
-    }
-  }
 
 }
 
@@ -158,6 +148,7 @@ color: red;
 .card{
   transition: all 0.2s ease-in-out;
     z-index: 1;
+
   &:hover {
       transform: scale(1.02);
       box-shadow: 12px 12px 150px lighten(black,17);
@@ -169,6 +160,11 @@ color: red;
   .thumbnail{
     height: 50vh;
     overflow: hidden;
+
+    &:nth-child(2n) {
+       float: right;
+     }
+
     img{
       height: 50vh;
       padding: 0px;
