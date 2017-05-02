@@ -1041,9 +1041,8 @@ a {
               animation: fadein 1.5s; }
 
 .footer {
-  background-color: #95a5a6;
   min-height: 300px;
-  color: red; }
+  width: 100%; }
 
 @-webkit-keyframes leftpop {
   from {
@@ -1077,6 +1076,7 @@ a {
 .card {
   transition: all 0.2s ease-in-out;
   z-index: 1;
+  border-bottom: solid #404851;
   background-color: #444d57;
   height: 50vh; }
   .card:hover {

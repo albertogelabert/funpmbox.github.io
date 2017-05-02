@@ -105,10 +105,8 @@ a{
 }
 
 .footer {
-background-color: $footer;
 min-height: 300px;
-
-color: red;
+width: 100%;
 
 }
 
@@ -148,6 +146,7 @@ color: red;
 .card{
   transition: all 0.2s ease-in-out;
     z-index: 1;
+    border-bottom:  solid darken(lighten($black, 9),2);
 
   &:hover {
       transform: scale(1.02);
