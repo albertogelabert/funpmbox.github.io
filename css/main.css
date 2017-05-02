@@ -1007,7 +1007,6 @@ a {
 
 .header {
   z-index: 1;
-  position: relative;
   background-image: url("https://images.unsplash.com/photo-1443996104801-80c82e789b18?dpr=1&auto=format&fit=crop&w=767&h=510&q=80&cs=tinysrgb&crop=&bg=");
   background-size: cover;
   min-height: 100vh;
@@ -1074,24 +1073,13 @@ a {
     opacity: 1; } }
 
 .card {
-  transition: all 0.2s ease-in-out;
-  z-index: 1;
-  border-bottom: solid #404851;
   background-color: #444d57;
-  height: 50vh; }
-  .card:hover {
-    -webkit-transform: scale(1.02);
-            transform: scale(1.02);
-    box-shadow: 12px 12px 150px #2b2b2b;
-    z-index: 2;
-    position: relative; }
+  height: 300px; }
   .card .thumbnail {
-    height: 50vh;
+    height: 300px;
     overflow: hidden; }
-    .card .thumbnail:nth-child(2n) {
-      float: right; }
     .card .thumbnail img {
-      height: 50vh;
+      height: 300px;
       padding: 0px;
       width: 100%;
       -webkit-transform: scale(1.2);

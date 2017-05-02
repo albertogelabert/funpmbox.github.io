@@ -52,7 +52,6 @@ a{
 .header {
 
   z-index: 1;
-  position: relative;
 
   background-image: url("https://images.unsplash.com/photo-1443996104801-80c82e789b18?dpr=1&auto=format&fit=crop&w=767&h=510&q=80&cs=tinysrgb&crop=&bg=");
   background-size: cover;
@@ -144,28 +143,17 @@ width: 100%;
 }
 
 .card{
-  transition: all 0.2s ease-in-out;
-    z-index: 1;
-    border-bottom:  solid darken(lighten($black, 9),2);
 
-  &:hover {
-      transform: scale(1.02);
-      box-shadow: 12px 12px 150px lighten(black,17);
-      z-index: 2;
-      position: relative;
-  }
+
   background-color: lighten($black, 9);
-  height: 50vh;
+  height: 300px;
   .thumbnail{
-    height: 50vh;
+    height: 300px;
     overflow: hidden;
 
-    &:nth-child(2n) {
-       float: right;
-     }
 
     img{
-      height: 50vh;
+      height: 300px;
       padding: 0px;
       width: 100%;
       transform: scale(1.2);
