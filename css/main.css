@@ -1016,7 +1016,8 @@ a {
   min-height: 100vh;
   height: auto;
   overflow: hidden;
-  color: white; }
+  color: white;
+  padding-top: 50px; }
   .header .button {
     margin-bottom: 10vh; }
   .header .text {
@@ -1041,9 +1042,8 @@ a {
               animation: fadein 1.5s; }
 
 .footer {
-  background-color: #95a5a6;
   min-height: 300px;
-  color: red; }
+  width: 100%; }
 
 @-webkit-keyframes leftpop {
   from {
@@ -1077,6 +1077,7 @@ a {
 .card {
   transition: all 0.2s ease-in-out;
   z-index: 1;
+  border-bottom: solid #404851;
   background-color: #444d57;
   height: 50vh; }
   .card:hover {
@@ -1108,3 +1109,55 @@ a {
       line-height: 200%;
       -webkit-animation: fadein 1.5s;
               animation: fadein 1.5s; }
+
+.postheader {
+  position: relative;
+  max-height: 50vh;
+  background-color: red;
+  padding: 30px; }
+  .postheader img {
+    max-height: 50vh;
+    -webkit-filter: blur(3px);
+            filter: blur(3px); }
+  .postheader h2 {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+    font-size: 6vh;
+    -webkit-animation: fadein 0.8s;
+            animation: fadein 0.8s;
+    z-index: 2; }
+
+.navbar {
+  text-align: right;
+  position: fixed;
+  z-index: 10;
+  background-color: blue;
+  width: 100%; }
+  .navbar .dropdown {
+    height: 100vh;
+    width: 350px;
+    left: -350px;
+    position: fixed;
+    z-index: 10;
+    background-color: green;
+    transition: all 0.3s ease-in-out; }
+    .navbar .dropdown.visible {
+      background-color: red;
+      left: 0px; }
+  .navbar ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333333; }
+  .navbar li {
+    float: left; }
+  .navbar a, .navbar i {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none; }
+    .navbar a:hover, .navbar i:hover {
+      color: #47D3E5;
+      background-color: red; }
