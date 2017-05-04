@@ -1,20 +1,57 @@
 <div class="navbar">
-  <ul>
-    <li><i class="fa fa-bars fa-2x" id="navbutton" aria-hidden="true"></i></li>
-    <li><a href="/">Home</a></li>
-    <li><a href="#">Juegos</a></li>
-  </ul>
+
+  <div class="bar">
+
+    <ul>
+      <li>
+        <div id="nav-icon4"><span></span><span></span><span></span></div>
+      </li>
+
+    </ul>
+
+  </div>
 
   <div class="dropdown">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="#">Juegos</a></li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+      <hr>
+      <li>
+        <div class="button">
+          <p>JUGAR</p>
+        </div>
+      </li>
+    </ul>
 
   </div>
 
 </div>
 
 <script type="text/javascript">
+  $("#nav-icon4").click(function() {
+    $(".dropdown,.bar").toggleClass("visible");
+  });
 
-$("#navbutton").click(function(){
-    $(".dropdown").toggleClass("visible");
-});
+  $(document).ready(function() {
+    $('#nav-icon4').click(function() {
+      $(this).toggleClass('open');
+    });
 
+    $(window).scroll(function() {
+      var scroll = $(window).scrollTop();
+
+      //>=, not <=
+      if (scroll >= 20) {
+        //clearHeader, not clearheader - caps H
+        $(".navbar").addClass("dark");
+      } else {
+        if ($('.navbar').hasClass('dark')) {
+          $(".navbar").removeClass("dark");
+
+        }
+      }
+    }); //missing );
+  });
 </script>
