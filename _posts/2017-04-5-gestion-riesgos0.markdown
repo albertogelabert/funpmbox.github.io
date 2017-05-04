@@ -10,6 +10,8 @@ imageurl: "/img/lecciones_aprendidas.png"
 ---
 ![{{page.title}}]({{page.imageurl}})
 
+<!--![{{page.title}}]({{page.imageurl}})-->
+
 Este juego es indicado para obtener las lecciones aprendidas de un proyecto determinado.
 Estos conocimientos pueden ser útiles para futuros proyectos.
 
