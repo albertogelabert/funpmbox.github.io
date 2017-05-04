@@ -209,6 +209,7 @@ a {
   background-color: none;
   width: 100%;
   transition: background-color 0.3s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.2);
 
   &.dark {
     background-color: $footer;
@@ -216,6 +217,15 @@ a {
 
   .bar {
     transition: all 0.3s ease-in-out;
+    text-align: center;
+    z-index: 500;
+    height: 50px;
+    overflow: hidden;
+
+    .text {
+      font-size: 40px;
+      float: none;
+    }
 
     &.visible {
       margin-left: 280px;
@@ -223,6 +233,7 @@ a {
   }
 
   .dropdown {
+    overflow-y: auto;
     margin-top: 8px;
     height: 100vh;
     width: 350px;
@@ -241,6 +252,10 @@ a {
       &:hover {
         color: $blue;
       }
+    }
+
+    a:hover {
+      color: $blue;
     }
 
     &.visible {
@@ -263,6 +278,8 @@ a {
   -o-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
   cursor: pointer;
+  float: left;
+  display: inline;
 }
 
 #nav-icon4 span {

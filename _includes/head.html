@@ -1,39 +1,41 @@
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{{ page.title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Font -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/main.css">
-    <!-- Link JQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Link to font awesome icons -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/main.css">
+  <!-- Link JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Link to font awesome icons -->
 
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-    <script type="text/javascript">
+  <script type="text/javascript">
     // handle links with @href started with '#' only
     $(document).on('click', 'a[href^="#"]', function(e) {
-        // target element id
-        var id = $(this).attr('href');
+      // target element id
+      var id = $(this).attr('href');
 
-        // target element
-        var $id = $(id);
-        if ($id.length === 0) {
-            return;
-        }
+      // target element
+      var $id = $(id);
+      if ($id.length === 0) {
+        return;
+      }
 
-        // prevent standard hash navigation (avoid blinking in IE)
-        e.preventDefault();
+      // prevent standard hash navigation (avoid blinking in IE)
+      e.preventDefault();
 
-        // top position relative to the document
-        var pos = $id.offset().top;
+      // top position relative to the document
+      var pos = $id.offset().top;
+      pos -= $(".navbar").height(); //navbar offset
 
-        // animated top scrolling
-        $('body, html').animate({scrollTop: pos});
+      // animated top scrolling
+      $('body, html').animate({
+        scrollTop: pos
+      });
     });
-
-    </script>
+  </script>
 </head>
