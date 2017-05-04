@@ -1147,14 +1147,23 @@ a {
   z-index: 10;
   background-color: none;
   width: 100%;
-  transition: background-color 0.3s ease-in-out; }
+  transition: background-color 0.3s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.2); }
   .navbar.dark {
     background-color: #95a5a6; }
   .navbar .bar {
-    transition: all 0.3s ease-in-out; }
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    z-index: 500;
+    height: 50px;
+    overflow: hidden; }
+    .navbar .bar .text {
+      font-size: 40px;
+      float: none; }
     .navbar .bar.visible {
       margin-left: 280px; }
   .navbar .dropdown {
+    overflow-y: auto;
     margin-top: 8px;
     height: 100vh;
     width: 350px;
@@ -1170,6 +1179,8 @@ a {
       transition: color 0.3s ease-in-out; }
       .navbar .dropdown li:hover {
         color: #47D3E5; }
+    .navbar .dropdown a:hover {
+      color: #47D3E5; }
     .navbar .dropdown.visible {
       left: 0; }
 
@@ -1182,7 +1193,9 @@ a {
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
   transition: 0.5s ease-in-out;
-  cursor: pointer; }
+  cursor: pointer;
+  float: left;
+  display: inline; }
 
 #nav-icon4 span {
   display: block;
