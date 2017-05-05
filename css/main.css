@@ -984,8 +984,14 @@ li {
       .row .col.push-xl12 {
         left: 100%; } }
 
+/******************
+* COLOR DEFINE
+******************/
+/******************
+* COLOR ASSIGNMENT
+******************/
 body {
-  background: #2e333a;
+  background: #1abc9c;
   min-height: 150vh;
   font-family: 'Roboto', sans-serif;
   color: white; }
@@ -1055,7 +1061,10 @@ a {
 
 .footer {
   min-height: 300px;
-  width: 100%; }
+  width: 100%;
+  border: none;
+  margin-top: 50px;
+  background-color: #16a085; }
 
 @-webkit-keyframes leftpop {
   from {
@@ -1087,22 +1096,23 @@ a {
     opacity: 1; } }
 
 .card {
+  overflow: hidden;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #8f4bab;
+  margin-top: 30px;
   transition: all 0.2s ease-in-out;
   z-index: 1;
-  border-bottom: solid #404851;
-  background-color: #444d57;
-  height: 50vh; }
+  background-color: #9b59b6; }
   .card:hover {
-    -webkit-transform: scale(1.02);
-            transform: scale(1.02);
-    box-shadow: 12px 12px 150px #2b2b2b;
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04);
+    box-shadow: 12px 12px 150px #666666;
     z-index: 2;
     position: relative; }
   .card .thumbnail {
     height: 50vh;
     overflow: hidden; }
-    .card .thumbnail:nth-child(2n) {
-      float: right; }
     .card .thumbnail img {
       height: 50vh;
       padding: 0;
@@ -1121,6 +1131,22 @@ a {
       line-height: 200%;
       -webkit-animation: fadein 1.5s;
               animation: fadein 1.5s; }
+
+.parallax {
+  /* Set a specific height */
+  min-height: 350px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.post {
+  font-size: 17px;
+  text-align: left; }
+  .post h1 {
+    margin-top: 10px;
+    font-size: 30px; }
 
 .postheader {
   position: relative;
@@ -1240,3 +1266,46 @@ a {
   transform: rotate(-45deg);
   top: 39px;
   left: 8px; }
+
+.stats {
+  border-radius: 5px;
+  position: relative;
+  margin-top: -25px;
+  height: 80px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  padding-bottom: 5px; }
+  .stats .fa {
+    color: #30363d;
+    font-size: 45px;
+    margin-bottom: 5px; }
+  .stats .stat {
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 10px; }
+    .stats .stat span {
+      font-size: 15px;
+      color: #30363d;
+      display: block; }
+
+.material {
+  background-color: red;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+  .material .text {
+    text-align: left;
+    padding: 30px; }
+    .material .text h1 {
+      font-size: 30px; }
+    .material .text p {
+      font-size: 17px; }
+  .material .image {
+    overflow: hidden;
+    min-height: 300px;
+    background-size: 100%;
+    background-position: center;
+    transition: background-size 1s ease-in-out; }
+    .material .image:hover {
+      background-size: 110%; }

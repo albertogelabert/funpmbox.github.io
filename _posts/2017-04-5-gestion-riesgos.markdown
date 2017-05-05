@@ -4,10 +4,8 @@ title:  "# Definir principios equipo"
 description: "Este juego está indicado para fijar los principios del equipo. Esta actividad incentiva a los integrantes del equipo a que hagan un debate para definir los principios del equipo de una forma democrática."
 date:   2014-04-20 09:11:03
 imageurl: "/img/definir_principios.png"
-categories: jekyll update
+categories: jekyll update test
 ---
-<!--![{{page.title}}]({{page.imageurl}})-->
-
 
 Este juego está indicado para fijar los principios del equipo. Esta actividad incentiva a los integrantes del equipo a que hagan un debate para definir los principios del equipo de una forma democrática.
 

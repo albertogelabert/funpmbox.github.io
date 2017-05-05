@@ -1,4 +1,20 @@
+/******************
+* COLOR DEFINE
+******************/
 $background: #ecf0f1;
 $footer: #95a5a6;
-$blue : #47D3E5;
+$blue: #47D3E5;
 $black: #30363d;
+$white: #1abc9c;
+/******************
+* COLOR ASSIGNMENT
+******************/
+$body: $white;
+$transparent-navbar: rgba(0, 0, 0, 0.2);
+$navbar: #95a5a6;
+$dropdown: darken($footer,10);
+$footer: #16a085;
+$card: darken(#9b59b6,5);
+$card-border: #9b59b6;
+$button: white;
+$button-hover: $blue;
