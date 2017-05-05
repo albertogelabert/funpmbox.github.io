@@ -35,6 +35,10 @@
   $(document).ready(function() {
     $('#nav-icon4').click(function() {
       $(this).toggleClass('open');
+      if ($(window).scrollTop() <= 20) {
+        $(".navbar").addClass("dark");
+      }
+
     });
 
     $(window).scroll(function() {
@@ -43,7 +47,7 @@
       if (scroll >= 20) {
         $(".navbar").addClass("dark");
       } else {
-        if ($('.navbar').hasClass('dark')) {
+        if ($('.navbar').hasClass('dark') && !$('.dropdown').hasClass('visible')) {
           $(".navbar").removeClass("dark");
 
         }

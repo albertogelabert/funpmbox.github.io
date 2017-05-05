@@ -1189,6 +1189,7 @@ a {
     .navbar .bar.visible {
       margin-left: 280px; }
   .navbar .dropdown {
+    font-size: 17px;
     overflow-y: auto;
     margin-top: 8px;
     height: 100vh;
