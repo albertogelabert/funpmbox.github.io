@@ -1212,9 +1212,11 @@ a {
     z-index: 10;
     background-color: #798d8f;
     transition: all 0.3s ease-in-out; }
+    .navbar .dropdown .button {
+      margin-top: 30px; }
     .navbar .dropdown li {
       float: none;
-      margin: 60px 60px 60px 30px;
+      margin: 10px 0;
       text-align: left;
       transition: color 0.3s ease-in-out; }
       .navbar .dropdown li:hover {
@@ -1409,3 +1411,38 @@ a {
 .wrapper {
   background-color: green;
   margin-bottom: 350px; }
+
+/*navbar*/
+.button-hv {
+  -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s; }
+  .button-hv:after {
+    position: absolute;
+    transition: 0.3s;
+    content: '';
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    height: 3px;
+    background: #f7f7f7; }
+  .button-hv:after {
+    height: 120%;
+    left: -10%;
+    -webkit-transform: skewX(15deg);
+            transform: skewX(15deg);
+    z-index: -1; }
+  .button-hv:hover {
+    color: #5bcaff;
+    cursor: pointer; }
+    .button-hv:hover:after {
+      width: 100%;
+      left: 0; }
+    .button-hv:hover:after {
+      left: -10%;
+      width: 120%; }
