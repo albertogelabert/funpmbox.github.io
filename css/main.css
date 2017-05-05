@@ -984,6 +984,12 @@ li {
       .row .col.push-xl12 {
         left: 100%; } }
 
+/******************
+* COLOR DEFINE
+******************/
+/******************
+* COLOR ASSIGNMENT
+******************/
 body {
   background: #1abc9c;
   min-height: 150vh;
