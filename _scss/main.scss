@@ -431,3 +431,88 @@ a {
     }
   }
 }
+/*Index*/
+.hero {
+  width: 100%;
+  min-height: 550px;
+  background-color: red;
+  background-size: cover;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url("https://68.media.tumblr.com/85126e90ce5ae959832ada14c98ffff3/tumblr_o1t1ij30Gr1two90zo1_500.gif");
+  font-size: 30px;
+
+  img {
+    max-height: 200px;
+  }
+
+  .content {
+    height: 550px;
+    margin: auto;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+.highlights {
+  color: black;
+  min-height: 300px;
+  background-color: $highlights;
+  vertical-align: middle;
+  padding-top: 10px;
+
+  h1 {
+    font-size: 30px;
+    margin: 30px 30px 50px;
+  }
+
+  .fa {
+    font-size: 80px;
+    margin-bottom: 10px;
+  }
+
+  span {
+    font-size: 15px;
+    color: $black;
+    display: block;
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+}
+
+.boxcontent {
+  margin-top: -20px; //WTF, I dont see where the margin is coming . TODO
+  min-height: 300px;
+  background-color: $boxcontent;
+
+  .image {
+    min-height: 300px;
+    background-image: url("http://contenidos.enter.co/custom/uploads/2015/09/comprar-un-iPhone.jpg");
+    background-size: cover;
+  }
+}
+
+.boxonline {
+  margin-top: -20px; //WTF, I dont see where the margin is coming . TODO
+  min-height: 300px;
+  background-color: $boxonline;
+
+  .image {
+    background-image: url("http://phandroid.s3.amazonaws.com/wp-content/uploads/2013/11/Nexus-5-unboxing-featured.jpg");
+    background-size: cover;
+    min-height: 300px;
+  }
+}
+
+.buybox {
+  margin-top: -20px; //WTF, I dont see where the margin is coming . TODO
+  min-height: 300px;
+  background-color: $buybox;
+
+  .image {
+    min-height: 300px;
+    background-image: url("http://guiadossolteiros.com/wp-content/uploads/2016/04/compras-online.jpg");
+    background-size: cover;
+  }
+}
