@@ -1064,7 +1064,7 @@ a {
   min-height: 300px;
   width: 100%;
   border: none;
-  background-color: #16a085;
+  background-color: #30363d;
   bottom: 0;
   left: 0;
   right: 0;
@@ -1072,6 +1072,11 @@ a {
   z-index: -1;
   position: fixed;
   margin-top: 300px; }
+  .footer .uiblogo {
+    margin-top: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("/img/uiblogo.png"); }
 
 @-webkit-keyframes leftpop {
   from {
@@ -1398,5 +1403,6 @@ a {
     .buybox .image:hover {
       background-size: 110%; }
 
-#content {
-  margin-bottom: 300px; }
+#content,
+#games {
+  margin-bottom: 350px; }

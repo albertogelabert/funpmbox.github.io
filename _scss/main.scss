@@ -103,6 +103,13 @@ a {
   z-index: -1;
   position: fixed;
   margin-top: 300px;
+
+  .uiblogo {
+    margin-top: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("/img/uiblogo.png");
+  }
 }
 @keyframes leftpop {
   from {
@@ -545,6 +552,7 @@ a {
   }
 }
 
-#content {
-  margin-bottom: 300px;
+#content,
+#games {
+  margin-bottom: 350px;
 }
