@@ -91,11 +91,18 @@ a {
 }
 
 .footer {
+  position: relative;
   min-height: 300px;
   width: 100%;
   border: none;
-  margin-top: 50px;
   background-color: $footer;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 150px;
+  z-index: -1;
+  position: fixed;
+  margin-top: 300px;
 }
 @keyframes leftpop {
   from {
@@ -536,4 +543,8 @@ a {
       background-size: 110%;
     }
   }
+}
+
+#content {
+  margin-bottom: 300px;
 }
