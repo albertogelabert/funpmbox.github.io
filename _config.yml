@@ -4,7 +4,7 @@ highlighter: rouge # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 
 ---
-layout: default
+#layout: default
 comments: true
 # Disqus config
 ---
