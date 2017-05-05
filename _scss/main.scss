@@ -478,6 +478,8 @@ a {
     display: block;
     text-align: justify;
     margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 
@@ -489,7 +491,13 @@ a {
   .image {
     min-height: 300px;
     background-image: url("http://contenidos.enter.co/custom/uploads/2015/09/comprar-un-iPhone.jpg");
-    background-size: cover;
+    background-size: 100%;
+    background-position: center;
+    transition: background-size 1s ease-in-out;
+
+    &:hover {
+      background-size: 110%;
+    }
   }
 }
 
@@ -500,8 +508,14 @@ a {
 
   .image {
     background-image: url("http://phandroid.s3.amazonaws.com/wp-content/uploads/2013/11/Nexus-5-unboxing-featured.jpg");
-    background-size: cover;
     min-height: 300px;
+    background-size: 100%;
+    background-position: center;
+    transition: background-size 1s ease-in-out;
+
+    &:hover {
+      background-size: 110%;
+    }
   }
 }
 
@@ -513,6 +527,13 @@ a {
   .image {
     min-height: 300px;
     background-image: url("http://guiadossolteiros.com/wp-content/uploads/2016/04/compras-online.jpg");
-    background-size: cover;
+    overflow: hidden;
+    background-size: 100%;
+    background-position: center;
+    transition: background-size 1s ease-in-out;
+
+    &:hover {
+      background-size: 110%;
+    }
   }
 }
