@@ -1060,11 +1060,23 @@ a {
               animation: fadein 1.5s; }
 
 .footer {
+  position: relative;
   min-height: 300px;
   width: 100%;
   border: none;
-  margin-top: 50px;
-  background-color: #16a085; }
+  background-color: #30363d;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 150px;
+  z-index: -1;
+  position: fixed;
+  margin-top: 300px; }
+  .footer .uiblogo {
+    margin-top: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("/img/uiblogo.png"); }
 
 @-webkit-keyframes leftpop {
   from {
@@ -1390,3 +1402,7 @@ a {
     transition: background-size 1s ease-in-out; }
     .buybox .image:hover {
       background-size: 110%; }
+
+#content,
+#games {
+  margin-bottom: 350px; }
