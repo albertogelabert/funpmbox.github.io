@@ -152,14 +152,47 @@ a {
 }
 
 .card {
-  overflow: hidden;
-  border-radius: 10px;
-  border-style: solid;
-  border-color: $card;
+  h1 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+  background-color: blue;
+  margin-bottom: 50px;
+
+  .thumbnail {
+    .image {
+      background-color: yellow;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 250px;
+      overflow: hidden;
+    }
+
+    .stats {
+      background-color: grey;
+      border-radius: 0;
+    }
+  }
+
+  .description {
+    text-align: left;
+    padding: 25px;
+  }
+}
+/*
+.card {
   margin-top: 30px;
   transition: all 0.2s ease-in-out;
   z-index: 1;
   background-color: $card-border;
+  padding: 0;
+
+  .row {
+    margin-bottom: 0;
+  }
 
   &:hover {
     transform: scale(1.04);
@@ -169,14 +202,17 @@ a {
   }
 
   .thumbnail {
-    height: 50vh;
-    overflow: hidden;
+    margin: 0;
 
-    img {
-      height: 50vh;
-      padding: 0;
-      width: 100%;
-      transform: scale(1.2);
+    .image {
+      height: 400px;
+      background-color: brown;
+    }
+
+    .stats {
+      height: 50px;
+      margin-top: -50px;
+      border-radius: 0;
     }
   }
 
@@ -195,8 +231,7 @@ a {
       animation: fadein 1.5s;
     }
   }
-}
-
+}*/
 .parallax {
   /* Set a specific height */
   min-height: 350px;
@@ -558,8 +593,16 @@ a {
   }
 }
 
-#content,
-#games {}
+#games {
+  padding-top: 50px;
+
+  h2 {
+    margin: 10px 30px 30px 0;
+    font-size: 30px;
+    text-align: left;
+  }
+  padding-bottom: 50px;
+}
 
 .wrapper {
   background-color: green;
@@ -606,5 +649,33 @@ a {
       left: -10%;
       width: 120%;
     }
+  }
+}
+
+.smartphone {
+  background-color: red;
+  min-height: 400px;
+  overflow: hidden;
+
+  .text {
+    h1 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 15px;
+    }
+    text-align: left;
+    margin-top: 50px;
+    padding: 50px;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  img {
+    margin-bottom: -200px;
+    margin-top: 150px;
   }
 }
