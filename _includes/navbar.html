@@ -29,30 +29,24 @@
 </div>
 
 <script type="text/javascript">
-  $("#nav-icon4").click(function() {
-    $(".dropdown,.bar").toggleClass("visible");
+var scrollBreakpoint = 20;
+
+$(document).ready(function() {
+  $('#nav-icon4').click(function() {
+    $(this).toggleClass('open');
+    $('.dropdown').toggleClass('visible');
+    if ($(window).scrollTop()<=scrollBreakpoint) {
+      $('.navbar').toggleClass('dark');
+    }
   });
-
-  $(document).ready(function() {
-    $('#nav-icon4').click(function() {
-      $(this).toggleClass('open');
-      if ($(window).scrollTop() <= 20) {
-        $(".navbar").addClass("dark");
-      }
-
-    });
-
-    $(window).scroll(function() {
-      var scroll = $(window).scrollTop();
-
-      if (scroll >= 20) {
-        $(".navbar").addClass("dark");
-      } else {
-        if ($('.navbar').hasClass('dark') && !$('.dropdown').hasClass('visible')) {
-          $(".navbar").removeClass("dark");
-
-        }
-      }
-    });
-  });
+});
+$(window).scroll(function() {
+  if($(window).scrollTop()>=scrollBreakpoint){
+    $('.navbar').addClass('dark');
+  }else {
+    if(!$('.dropdown').hasClass('visible')){
+    $('.navbar').removeClass('dark');
+    }
+  }
+});
 </script>
