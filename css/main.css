@@ -1109,42 +1109,75 @@ a {
     opacity: 1; } }
 
 .card {
-  overflow: hidden;
-  border-radius: 10px;
-  border-style: solid;
-  border-color: #8f4bab;
+  background-color: blue;
+  margin-bottom: 50px; }
+  .card h1 {
+    font-size: 30px; }
+  .card p {
+    font-size: 15px; }
+  .card .thumbnail .image {
+    background-color: yellow;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    overflow: hidden; }
+  .card .thumbnail .stats {
+    background-color: grey;
+    border-radius: 0; }
+  .card .description {
+    text-align: left;
+    padding: 25px; }
+
+/*
+.card {
   margin-top: 30px;
   transition: all 0.2s ease-in-out;
   z-index: 1;
-  background-color: #9b59b6; }
-  .card:hover {
-    -webkit-transform: scale(1.04);
-            transform: scale(1.04);
-    box-shadow: 12px 12px 150px #666666;
+  background-color: $card-border;
+  padding: 0;
+
+  .row {
+    margin-bottom: 0;
+  }
+
+  &:hover {
+    transform: scale(1.04);
+    box-shadow: 12px 12px 150px lighten(black,40);
     z-index: 2;
-    position: relative; }
-  .card .thumbnail {
-    height: 50vh;
-    overflow: hidden; }
-    .card .thumbnail img {
-      height: 50vh;
-      padding: 0;
-      width: 100%;
-      -webkit-transform: scale(1.2);
-              transform: scale(1.2); }
-  .card .description {
+    position: relative;
+  }
+
+  .thumbnail {
+    margin: 0;
+
+    .image {
+      height: 400px;
+      background-color: brown;
+    }
+
+    .stats {
+      height: 50px;
+      margin-top: -50px;
+      border-radius: 0;
+    }
+  }
+
+  .description {
     text-align: left;
-    padding: 30px; }
-    .card .description h1 {
+    padding: 30px;
+
+    h1 {
       font-size: 250%;
-      -webkit-animation: fadein 0.8s;
-              animation: fadein 0.8s; }
-    .card .description p {
+      animation: fadein 0.8s;
+    }
+
+    p {
       font-size: 125%;
       line-height: 200%;
-      -webkit-animation: fadein 1.5s;
-              animation: fadein 1.5s; }
-
+      animation: fadein 1.5s;
+    }
+  }
+}*/
 .parallax {
   /* Set a specific height */
   min-height: 350px;
@@ -1408,6 +1441,14 @@ a {
     .buybox .image:hover {
       background-size: 110%; }
 
+#games {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  #games h2 {
+    margin: 10px 30px 30px 0;
+    font-size: 30px;
+    text-align: left; }
+
 .wrapper {
   background-color: green;
   margin-bottom: 350px; }
@@ -1446,3 +1487,21 @@ a {
     .button-hv:hover:after {
       left: -10%;
       width: 120%; }
+
+.smartphone {
+  background-color: red;
+  min-height: 400px;
+  overflow: hidden; }
+  .smartphone .text {
+    text-align: left;
+    margin-top: 50px;
+    padding: 50px; }
+    .smartphone .text h1 {
+      font-size: 30px; }
+    .smartphone .text p {
+      font-size: 15px; }
+  .smartphone .image {
+    width: 100%; }
+  .smartphone img {
+    margin-bottom: -200px;
+    margin-top: 150px; }
