@@ -13,8 +13,11 @@
    viewBox="0 0 221 464"
    version="1.1"
    id="svg2"
-   inkscape:version="0.48.5 r10040"
-   sodipodi:docname="apple-iphone-5s.svg">
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="iphone.svg"
+   inkscape:export-filename="/Users/adriancast/Documents/pmbox-web/img/iphone.png"
+   inkscape:export-xdpi="96.515839"
+   inkscape:export-ydpi="96.515839">
   <metadata
      id="metadata14">
     <rdf:RDF>
@@ -23,6 +26,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>apple-iphone-5s</dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -35,16 +39,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1230"
-     inkscape:window-height="856"
+     inkscape:window-width="1280"
+     inkscape:window-height="695"
      id="namedview12"
      showgrid="false"
-     inkscape:zoom="1.4385966"
-     inkscape:cx="110.5"
-     inkscape:cy="232"
-     inkscape:window-x="100"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
+     inkscape:zoom="0.50862071"
+     inkscape:cx="105.63415"
+     inkscape:cy="315.41463"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
   <title
      id="title4">apple-iphone-5s</title>
@@ -53,16 +57,108 @@
   <defs
      id="defs8" />
   <g
-     id="Page-1"
-     sketch:type="MSPage"
-     stroke-width="1"
-     stroke="none"
-     fill-rule="evenodd"
-     fill="none">
-    <path
-       d="M3,164 L0,164 L0,147 L3,147 L3,126 L0,126 L0,109 L3,109 L3,87 L0,87 L0,66 L3,66 L3,34.0058827 C3,16.3333538 17.3228613,2 34.9910061,2 L149,2 L149,0 L185,0 L185,2 L189.008994,2 C206.675354,2 221,16.3295218 221,34.0058827 L221,431.994117 C221,449.666646 206.677139,464 189.008994,464 L34.9910061,464 C17.3246455,464 3,449.670478 3,431.994117 L3,164 Z M94.0088498,40 C93.4516774,40 93,40.4433532 93,41.0093689 L93,42.9906311 C93,43.5480902 93.4508527,44 93.9996148,44 L116.404905,44 L128.992078,44 C129.548738,44 130,43.5566468 130,42.9906311 L130,41.0093689 C130,40.4519098 129.558697,40 128.99115,40 L94.0088498,40 Z M111.5,29 C113.985281,29 116,26.9852815 116,24.5 C116,22.0147185 113.985281,20 111.5,20 C109.014719,20 107,22.0147185 107,24.5 C107,26.9852815 109.014719,29 111.5,29 Z M17.9944647,66 C16.8929523,66 16,66.9024743 16,68.0096543 L16,398.990346 C16,400.100247 16.8987528,401 17.9944647,401 L206.005535,401 C207.107048,401 208,400.097526 208,398.990346 L208,68.0096543 C208,66.8997529 207.101247,66 206.005535,66 L17.9944647,66 Z M112,450 C122.493411,450 131,441.493411 131,431 C131,420.506589 122.493411,412 112,412 C101.506589,412 93,420.506589 93,431 C93,441.493411 101.506589,450 112,450 Z M81,45 C82.6568543,45 84,43.6568543 84,42 C84,40.3431457 82.6568543,39 81,39 C79.3431457,39 78,40.3431457 78,42 C78,43.6568543 79.3431457,45 81,45 Z M112,448 C121.388841,448 129,440.388841 129,431 C129,421.611159 121.388841,414 112,414 C102.611159,414 95,421.611159 95,431 C95,440.388841 102.611159,448 112,448 Z"
-       id="Apple-iPhone-5S"
-       sketch:type="MSShapeGroup"
-       fill="#000000" />
+     id="g4276">
+    <g
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-opacity:1"
+       sketch:type="MSPage"
+       id="Page-1">
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-opacity:1"
+         sketch:type="MSShapeGroup"
+         id="Apple-iPhone-5S"
+         d="m 3,164 -3,0 0,-17 3,0 0,-21 -3,0 0,-17 3,0 L 3,87 0,87 0,66 3,66 3,34.005883 C 3,16.333354 17.322861,2 34.991006,2 L 149,2 l 0,-2 36,0 0,2 4.00899,0 C 206.67535,2 221,16.329522 221,34.005883 l 0,397.988237 C 221,449.66665 206.67714,464 189.00899,464 L 34.991006,464 C 17.324645,464 3,449.67048 3,431.99412 L 3,164 Z M 94.00885,40 C 93.451677,40 93,40.443353 93,41.009369 l 0,1.981262 C 93,43.54809 93.450853,44 93.999615,44 l 22.405295,0 12.58717,0 C 129.54874,44 130,43.556647 130,42.990631 l 0,-1.981262 C 130,40.45191 129.5587,40 128.99115,40 l -34.9823,0 z M 111.5,29 c 2.48528,0 4.5,-2.014719 4.5,-4.5 0,-2.485282 -2.01472,-4.5 -4.5,-4.5 -2.48528,0 -4.5,2.014718 -4.5,4.5 0,2.485281 2.01472,4.5 4.5,4.5 z M 17.994465,66 C 16.892952,66 16,66.902474 16,68.009654 L 16,398.99035 C 16,400.10025 16.898753,401 17.994465,401 l 188.011065,0 C 207.10705,401 208,400.09753 208,398.99035 L 208,68.009654 C 208,66.899753 207.10125,66 206.00553,66 L 17.994465,66 Z M 112,450 c 10.49341,0 19,-8.50659 19,-19 0,-10.49341 -8.50659,-19 -19,-19 -10.49341,0 -19,8.50659 -19,19 0,10.49341 8.50659,19 19,19 z M 81,45 c 1.656854,0 3,-1.343146 3,-3 0,-1.656854 -1.343146,-3 -3,-3 -1.656854,0 -3,1.343146 -3,3 0,1.656854 1.343146,3 3,3 z m 31,403 c 9.38884,0 17,-7.61116 17,-17 0,-9.38884 -7.61116,-17 -17,-17 -9.38884,0 -17,7.61116 -17,17 0,9.38884 7.61116,17 17,17 z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g4257">
+      <g
+         id="g4145"
+         transform="translate(8.3170778,0)"
+         style="stroke:#ffffff;stroke-opacity:1">
+        <path
+           inkscape:transform-center-y="-12.96416"
+           d="m 147.09209,165.30639 -89.818335,0 44.909165,-77.784963 z"
+           inkscape:randomized="0"
+           inkscape:rounded="0"
+           inkscape:flatsided="true"
+           sodipodi:arg2="1.5707963"
+           sodipodi:arg1="0.52359878"
+           sodipodi:r2="25.92832"
+           sodipodi:r1="51.85664"
+           sodipodi:cy="139.37807"
+           sodipodi:cx="102.18292"
+           sodipodi:sides="3"
+           id="path4135"
+           style="opacity:0.98000004;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:4.22527695;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           sodipodi:type="star" />
+        <rect
+           y="110.18296"
+           x="98.707314"
+           height="28.499998"
+           width="6.9512191"
+           id="rect4139"
+           style="opacity:0.98000004;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:3.5999999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="opacity:0.98000004;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:3.5999999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect4143"
+           width="6.9512177"
+           height="8.341465"
+           x="98.707314"
+           y="144.93904" />
+      </g>
+      <g
+         transform="translate(-10.324199,0)"
+         style="font-style:normal;font-weight:normal;font-size:5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot4150">
+        <path
+           d="m 39.183359,210.03708 0,-18.15 -1.4025,0 0,18.15 1.4025,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:27.5px;font-family:UIBsans;-inkscape-font-specification:'UIBsans Light';fill:none;stroke:#ffffff;stroke-opacity:1"
+           id="path4233" />
+        <path
+           d="m 55.11918,193.20708 0.4125,-1.32 -12.925,0 0,1.32 5.7475,0 0,16.83 1.43,0 0,-16.83 5.335,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:27.5px;font-family:UIBsans;-inkscape-font-specification:'UIBsans Light';fill:none;stroke:#ffffff;stroke-opacity:1"
+           id="path4235" />
+        <path
+           d="m 60.492422,198.10208 0,-6.215 -1.1275,0 0,6.215 1.1275,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:27.5px;font-family:UIBsans;-inkscape-font-specification:'UIBsans Light';fill:none;stroke:#ffffff;stroke-opacity:1"
+           id="path4237" />
+        <path
+           d="m 75.048945,192.93208 c -1.5125,-0.9625 -2.97,-1.375 -4.785,-1.375 -3.245,0 -5.06,1.7325 -5.06,4.4825 0,1.8975 1.0175,3.3 3.5475,4.785 1.87,1.1 4.675,2.2 4.675,4.895 0,2.035 -1.1275,3.2725 -3.3,3.2725 -1.8425,0 -3.2725,-0.6325 -4.73,-1.6775 l -0.6325,1.32 c 1.595,1.155 3.2175,1.7325 5.1975,1.7325 3.3,0 5.0325,-1.87 5.0325,-4.8675 0,-2.7225 -1.925,-3.96 -3.9325,-5.115 -3.465,-2.0075 -4.29,-2.7225 -4.29,-4.3725 0,-1.87 1.32,-3.08 3.3275,-3.08 1.54,0 2.9975,0.4125 4.29,1.2375 l 0.66,-1.2375 z"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:27.5px;font-family:UIBsans;-inkscape-font-specification:'UIBsans Light';fill:none;stroke:#ffffff;stroke-opacity:1"
+           id="path4239" />
+        <path
+           d="m 95.210312,193.20708 0.4125,-1.32 -8.964999,0 0,18.15 1.402499,0 0,-8.5525 5.8575,0 0.412501,-1.32 -6.270001,0 0,-6.9575 7.15,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:27.5px;font-family:UIBsans;-inkscape-font-specification:'UIBsans Light';fill:none;stroke:#ffffff;stroke-opacity:1"
+           id="path4241" />
+        <path
+           d="m 112.24441,203.93208 0,-12.375 -1.43,0.33 0,11.605 c 0,3.465 -1.265,5.5 -4.95,5.5 -3.52,0 -4.9775,-2.035 -4.9775,-5.5 l 0,-11.605 -1.402496,0 0,12.045 c 0,4.4 2.474996,6.435 6.407496,6.435 3.905,0 6.3525,-2.145 6.3525,-6.435 z"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:27.5px;font-family:UIBsans;-inkscape-font-specification:'UIBsans Light';fill:none;stroke:#ffffff;stroke-opacity:1"
+           id="path4243" />
+        <path
+           d="m 131.80637,210.03708 0,-18.48 -1.43,0.33 0,16.3625 -10.1475,-16.3625 -2.365,0 0,18.15 1.4025,0 0,-16.885 10.56,16.885 1.98,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:27.5px;font-family:UIBsans;-inkscape-font-specification:'UIBsans Light';fill:none;stroke:#ffffff;stroke-opacity:1"
+           id="path4245" />
+        <path
+           d="m 154.59184,193.20708 0.4125,-1.32 -12.925,0 0,1.32 5.7475,0 0,16.83 1.43,0 0,-16.83 5.335,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:27.5px;font-family:UIBsans;-inkscape-font-specification:'UIBsans Light';fill:none;stroke:#ffffff;stroke-opacity:1"
+           id="path4247" />
+        <path
+           d="m 159.81812,210.03708 0,-18.15 -1.4025,0 0,18.15 1.4025,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:27.5px;font-family:UIBsans;-inkscape-font-specification:'UIBsans Light';fill:none;stroke:#ffffff;stroke-opacity:1"
+           id="path4249" />
+        <path
+           d="m 182.40895,210.03708 0,-18.15 -2.3375,0 -6.0225,16.5275 -5.83,-16.5275 -2.3925,0 0,18.15 1.2925,0 0,-16.8575 6.05,16.8575 1.43,0 6.38,-16.8575 0,17.1875 1.43,-0.33 z"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:27.5px;font-family:UIBsans;-inkscape-font-specification:'UIBsans Light';fill:none;stroke:#ffffff;stroke-opacity:1"
+           id="path4251" />
+        <path
+           d="m 197.24004,210.03708 0.4125,-1.32 -7.81,0 0,-7.3975 5.8575,0 0.4125,-1.32 -6.27,0 0,-6.7925 7.15,0 0.4125,-1.32 -8.965,0 0,18.15 8.8,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:27.5px;font-family:UIBsans;-inkscape-font-specification:'UIBsans Light';fill:none;stroke:#ffffff;stroke-opacity:1"
+           id="path4253" />
+        <path
+           d="m 203.56504,189.79708 -1.65,0.4125 0.165,14.3 1.32,0 0.165,-14.7125 z m 0.3025,19.2775 c 0,-0.715 -0.495,-1.045 -1.1,-1.045 -0.66,0 -1.1275,0.385 -1.1275,1.045 0,0.6875 0.4675,1.0725 1.1,1.0725 0.6875,0 1.1275,-0.385 1.1275,-1.0725 z"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:27.5px;font-family:UIBsans;-inkscape-font-specification:'UIBsans Light';fill:none;stroke:#ffffff;stroke-opacity:1"
+           id="path4255" />
+      </g>
+    </g>
   </g>
 </svg>

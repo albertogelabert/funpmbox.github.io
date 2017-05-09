@@ -1122,7 +1122,7 @@ a {
     height: 250px;
     overflow: hidden; }
   .card .thumbnail .stats {
-    background-color: grey;
+    background-color: white;
     border-radius: 0; }
   .card .description {
     text-align: left;
