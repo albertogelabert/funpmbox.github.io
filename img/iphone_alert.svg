@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="221"
+   height="464"
+   viewBox="0 0 221 464"
+   version="1.1"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="iphone_alert.svg">
+  <metadata
+     id="metadata39">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>IPAD 2</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="695"
+     id="namedview37"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="-89.810385"
+     inkscape:cy="227.39093"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <!-- Generator: Sketch 3.0.4 (8054) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title4">IPAD 2</title>
+  <desc
+     id="desc6">Created with Sketch.</desc>
+  <defs
+     id="defs8" />
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot4233"
+     style="font-style:normal;font-weight:normal;font-size:5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     transform="translate(-332.59211,12.5107)"><flowRegion
+       id="flowRegion4235"><rect
+         id="rect4237"
+         width="88.838158"
+         height="34.947365"
+         x="358.29211"
+         y="312.21054" /></flowRegion><flowPara
+       id="flowPara4239"></flowPara></flowRoot>  <flowRoot
+     xml:space="preserve"
+     id="flowRoot4259"
+     style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     transform="translate(-332.59211,12.5107)"><flowRegion
+       id="flowRegion4261"><rect
+         id="rect4263"
+         width="87.234039"
+         height="70.744682"
+         x="362.23404"
+         y="326.46808"
+         style="font-size:10px" /></flowRegion><flowPara
+       id="flowPara4265"></flowPara></flowRoot>  <g
+     id="g4337"
+     transform="matrix(1.0458847,0,0,1.0458847,41.971632,-110.96128)"
+     style="stroke:#ffffff;stroke-opacity:1">
+    <g
+       style="fill:none;stroke:#ffffff;stroke-opacity:1"
+       transform="matrix(1.5799728,0,0,1.5799728,-678.24758,-28.19719)"
+       id="g4214">
+      <path
+         d="m 536.05006,345.16435 c 0,8.833 -7.191,15.992 -16.062,15.992 l -97.875,0 c -8.871,0 -16.062,-7.159 -16.062,-15.992 l 0,-241.891 c 0,-8.832997 7.191,-15.991997 16.062,-15.991997 l 97.875,0 c 8.871,0 16.062,7.159 16.062,15.991997 l 0,241.891 0,0 z"
+         id="path28"
+         sketch:type="MSShapeGroup"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:2;stroke-opacity:1" />
+      <rect
+         id="rect30"
+         sketch:type="MSShapeGroup"
+         x="415.05005"
+         y="123.20036"
+         width="111.93"
+         height="199.084"
+         style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1;stroke-opacity:1" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1;stroke-opacity:1"
+         d="m 483.05006,112.94635 c 0,0.635 -0.439,1.147 -0.98,1.147 l -20.102,0 c -0.542,0 -0.98,-0.513 -0.98,-1.147 l 0,-2.58 c 0,-0.635 0.439,-1.147 0.98,-1.147 l 20.102,0 c 0.541,0 0.98,0.513 0.98,1.147 l 0,2.58 0,0 z"
+         id="speaker"
+         sketch:type="MSShapeGroup"
+         inkscape:connector-curvature="0" />
+      <circle
+         style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1;stroke-opacity:1"
+         id="circle33"
+         sketch:type="MSShapeGroup"
+         cx="472.05005"
+         cy="99.200356"
+         r="3" />
+      <ellipse
+         style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1;stroke-opacity:1"
+         id="ellipse35"
+         sketch:type="MSShapeGroup"
+         cx="471.09006"
+         cy="341.20135"
+         rx="10.04"
+         ry="10.001" />
+    </g>
+    <g
+       style="fill:none;stroke:#ffffff;stroke-opacity:1"
+       transform="matrix(1.5799728,0,0,1.5799728,-563.76441,-202.95726)"
+       id="g4285">
+      <g
+         style="fill:none;stroke:#ffffff;stroke-opacity:1"
+         id="g4253"
+         transform="matrix(0.7875591,0,0,0.7875591,84.873711,57.182834)">
+        <path
+           inkscape:transform-center-y="-9.2190895"
+           d="m 431.45268,297.72782 -63.87173,0 31.93587,-55.31454 z"
+           inkscape:randomized="0"
+           inkscape:rounded="0"
+           inkscape:flatsided="true"
+           sodipodi:arg2="1.5707963"
+           sodipodi:arg1="0.52359878"
+           sodipodi:r2="18.438179"
+           sodipodi:r1="36.876358"
+           sodipodi:cy="279.28964"
+           sodipodi:cx="399.51682"
+           sodipodi:sides="3"
+           id="path4227"
+           style="opacity:0.98000004;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:3.5999999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           sodipodi:type="star" />
+        <g
+           style="fill:none;stroke:#ffffff;stroke-opacity:1"
+           id="g4249">
+          <rect
+             style="opacity:0.98000004;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1.57350647;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect4229"
+             width="5.3857293"
+             height="19.375326"
+             x="397.07205"
+             y="261.45981"
+             ry="3.0446944" />
+          <rect
+             ry="2.8617001"
+             y="284.68317"
+             x="396.73862"
+             height="5.7234001"
+             width="6.0526252"
+             id="rect4231"
+             style="opacity:0.98000004;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+      </g>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot4241"
+         style="font-style:normal;font-weight:normal;font-size:5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         transform="matrix(1.4217906,0,0,1.4217906,-167.91146,-139.54033)"><flowRegion
+           id="flowRegion4243"><rect
+             style="fill:none;stroke:#ffffff;stroke-opacity:1"
+             id="rect4245"
+             width="68.24926"
+             height="17.052238"
+             x="366.1308"
+             y="308.29123" /></flowRegion><flowPara
+           id="flowPara4247"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;font-family:UIBsans;-inkscape-font-specification:UIBsans;fill:none;stroke:#ffffff;stroke-opacity:1">ATTENTION:</flowPara></flowRoot>      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:5.5018115px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="359.61725"
+         y="330.04572"
+         id="text4267"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4269"
+           x="359.61725"
+           y="330.04572"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.379076px;font-family:UIBsans;-inkscape-font-specification:UIBsans;fill:none;stroke:#ffffff;stroke-opacity:1">IT'S FUN TIME!</tspan></text>
+    </g>
+  </g>
+</svg>
