@@ -7,6 +7,7 @@ Estos conocimientos pueden ser útiles para futuros proyectos."
 date:   2014-04-20 09:11:03
 categories: jekyll update
 imageurl: "/img/lecciones_aprendidas.png"
+lang: es
 ---
 
 Este juego es indicado para obtener las lecciones aprendidas de un proyecto determinado.
