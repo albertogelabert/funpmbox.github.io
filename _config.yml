@@ -3,8 +3,17 @@ name: Your New Jekyll Site
 highlighter: rouge # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 
+index_first_box_title:
+  esp: título
+  eng: The title rocks
+
+index_first_box_desc:
+  esp: Esto es la descripcion de la caja
+  eng: This is the description of the BOX
+
 ---
 #layout: default
 comments: true
 # Disqus config
 ---
+
