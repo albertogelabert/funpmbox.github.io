@@ -3,6 +3,24 @@
     <div class="row">
       <div class="uiblogo col s12 m5"></div>
       <div class="description col s12 m7">
+        <div class="languages">
+          <h2># Idiomas</h2>
+          <ul>
+          {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+          {% for post in posts %}
+          <li>
+            <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
+          </li>
+          {% endfor %}
+
+          {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+          {% for page in pages %}
+          <li>
+            <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+          </li>
+          {% endfor %}
+          </ul>
+        </div>
 
       </div>
 

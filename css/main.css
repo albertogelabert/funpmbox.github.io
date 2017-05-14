@@ -1072,6 +1072,8 @@ a {
   z-index: -1;
   position: fixed;
   margin-top: 300px; }
+  .footer .languages {
+    margin-top: 150px; }
   .footer .uiblogo {
     background-size: contain;
     background-repeat: no-repeat;
