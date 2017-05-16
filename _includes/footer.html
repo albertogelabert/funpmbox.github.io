@@ -1,9 +1,14 @@
-<div class="col s12 footer parallax">
+<!--<div class="col s12 footer parallax">
   <div class="container">
     <div class="row">
-      <div class="uiblogo col s12 m5"></div>
-      <div class="description col s12 m7">
-        <div class="languages">
+      <div class="uiblogo col s12 m6"></div>
+      <div class="description col s12 m6">
+        <div class="row">
+        <div class="contact col s6 m6">
+          <h1>Contacto</h1>
+          <h2>Universitat de les Illes Balears.Cra. de Valldemossa,km 7.5. Palma (Illes Balears).</br>Tel.: +34 - 971 17 30 00.</h2>
+        </div>
+        <div class="languages col s6 m6">
           <h2># Idiomas</h2>
           <ul>
           {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
@@ -21,12 +26,55 @@
           {% endfor %}
           </ul>
         </div>
+        </div>
+        </div>
 
       </div>
 
     </div>
 
+  </div>-->
+
+  <div class="footer parallax col s12">
+    <div class="container">
+      <div class="row">
+
+        <div class="uiblogo col s12 m6"></div>
+        <div class="text col s12 m6">
+          <div class="row">
+
+            <div class="contact col s11 m5">
+          <h1>Contacto</h1>
+          <h2>Universitat de les Illes Balears.Cra. de Valldemossa,km 7.5. Palma (Illes Balears).</br></br>Tel.: +34 - 971 17 30 00.</h2>
+        </div>
+        <div class="languages col s11 m5">
+
+           <h1>Idiomas</h1>
+          <ul>
+          {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+          {% for post in posts %}
+          <li>
+            <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
+          </li>
+          {% endfor %}
+
+          {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+          {% for page in pages %}
+          <li>
+            <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+          </li>
+          {% endfor %}
+          </ul>
+          
+        </div>
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
   </div>
 
 
-</div>

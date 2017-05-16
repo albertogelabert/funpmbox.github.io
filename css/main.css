@@ -1068,12 +1068,21 @@ a {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 150px;
   z-index: -1;
-  position: fixed;
-  margin-top: 300px; }
-  .footer .languages {
+  position: fixed; }
+  .footer .contact {
+    margin-bottom: 50px; }
+  .footer .text {
+    padding: 30px;
+    text-align: left;
+    color: white;
     margin-top: 150px; }
+    .footer .text li {
+      font-size: 15px; }
+    .footer .text h1 {
+      font-size: 25px; }
+    .footer .text h2 {
+      font-size: 15px; }
   .footer .uiblogo {
     background-size: contain;
     background-repeat: no-repeat;
@@ -1528,3 +1537,9 @@ a {
   .smartphone img {
     margin-bottom: -200px;
     margin-top: 150px; }
+
+@media (max-width: 600px) {
+  .wrapper {
+    margin-bottom: 700px; }
+  .footer .text {
+    margin-top: 0px; } }

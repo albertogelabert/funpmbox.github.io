@@ -2,6 +2,20 @@ name: Your New Jekyll Site
 #markdown: redcarpet
 highlighter: rouge # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
+#This is ugly... Is not working as the docomentatios says. This is the only way :(
+navbar_home_link:
+  esp: /inicio.html
+  eng: /index.html
+navbar_home_string:
+  esp: Inicio
+  eng: Index
+
+navbar_games_link:
+  esp: /juegos.html
+  eng: /games.html
+navbar_games_string:
+  esp: Juegos
+  eng: games
 
 index_first_box_title:
   esp: título
