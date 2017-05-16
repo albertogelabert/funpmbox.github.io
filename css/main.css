@@ -1526,3 +1526,12 @@ a {
   .smartphone img {
     margin-bottom: -200px;
     margin-top: 150px; }
+
+.parallax {
+  /* Set a specific height */
+  min-height: 350px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
