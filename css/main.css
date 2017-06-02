@@ -1201,6 +1201,71 @@ a {
     bottom: 0;
     right: 0; }
 
+.smartphone {
+  background-color: #0078D7;
+  min-height: 400px;
+  overflow: hidden;
+  color: #FFFFFF; }
+  .smartphone .text {
+    text-align: left;
+    margin-top: 50px;
+    padding: 50px; }
+    .smartphone .text h1 {
+      font-size: 30px; }
+    .smartphone .text p {
+      font-size: 15px; }
+  .smartphone .image {
+    width: 100%; }
+  .smartphone img {
+    margin-bottom: -200px;
+    margin-top: 150px; }
+
+.card {
+  min-height: 300px;
+  background-color: #FFFFFF;
+  margin-bottom: 50px; }
+  .card h1 {
+    font-size: 30px;
+    color: #444444; }
+  .card p {
+    font-size: 15px;
+    color: #9C9C9C; }
+  .card .thumbnail {
+    overflow: hidden; }
+    .card .thumbnail .image {
+      margin-left: -10px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("people.gif");
+      height: 300px;
+      overflow: hidden; }
+    .card .thumbnail .stats {
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7));
+      border-radius: 0;
+      color: #FFFFFF;
+      margin-left: -10px;
+      border-radius: 5px;
+      position: relative;
+      margin-top: -85px;
+      height: 80px;
+      background-color: white;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 5px; }
+      .card .thumbnail .stats .fa {
+        font-size: 45px;
+        margin-bottom: 5px; }
+      .card .thumbnail .stats .stat {
+        display: table-cell;
+        vertical-align: middle;
+        padding-top: 10px; }
+        .card .thumbnail .stats .stat span {
+          font-size: 15px;
+          display: block; }
+  .card .description {
+    text-align: left;
+    padding: 25px; }
+
 body {
   background: #FFFFFF;
   min-height: 150vh;
@@ -1289,26 +1354,6 @@ body {
   to {
     opacity: 1; } }
 
-.card {
-  background-color: blue;
-  margin-bottom: 50px; }
-  .card h1 {
-    font-size: 30px; }
-  .card p {
-    font-size: 15px; }
-  .card .thumbnail .image {
-    background-color: yellow;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 250px;
-    overflow: hidden; }
-  .card .thumbnail .stats {
-    background-color: white;
-    border-radius: 0; }
-  .card .description {
-    text-align: left;
-    padding: 25px; }
-
 .parallax {
   /* Set a specific height */
   min-height: 350px;
@@ -1347,15 +1392,13 @@ body {
 .stats {
   border-radius: 5px;
   position: relative;
-  margin-top: -25px;
+  margin-top: -85px;
   height: 80px;
   background-color: white;
   margin-left: auto;
   margin-right: auto;
-  max-width: 400px;
   padding-bottom: 5px; }
   .stats .fa {
-    color: #444444;
     font-size: 45px;
     margin-bottom: 5px; }
   .stats .stat {
@@ -1364,7 +1407,6 @@ body {
     padding-top: 10px; }
     .stats .stat span {
       font-size: 15px;
-      color: #444444;
       display: block; }
 
 .material {
@@ -1433,24 +1475,6 @@ body {
     .button-hv:hover:after {
       left: -10%;
       width: 120%; }
-
-.smartphone {
-  background-color: red;
-  min-height: 400px;
-  overflow: hidden; }
-  .smartphone .text {
-    text-align: left;
-    margin-top: 50px;
-    padding: 50px; }
-    .smartphone .text h1 {
-      font-size: 30px; }
-    .smartphone .text p {
-      font-size: 15px; }
-  .smartphone .image {
-    width: 100%; }
-  .smartphone img {
-    margin-bottom: -200px;
-    margin-top: 150px; }
 
 @media (max-width: 600px) {
   .textbox .text {
