@@ -1,0 +1,33 @@
+.hero {
+  color: $white;
+  width: 100%;
+  min-height: auto;
+  background-size: cover;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url("https://68.media.tumblr.com/85126e90ce5ae959832ada14c98ffff3/tumblr_o1t1ij30Gr1two90zo1_500.gif");
+  font-size: 25px;
+  padding-bottom: 30px; 
+
+  .fa{
+    color: white;
+    transition: color ease-in-out 0.5s;
+
+    &:hover{
+        color: mix( white, $blue);
+    }
+  }
+
+
+  img {
+      margin-top: 100px;
+      margin-bottom: 30px; 
+    max-height: 200px;
+  }
+
+  .content {
+    height: 550px;
+    top: 20%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+}

@@ -8,6 +8,7 @@
 @import "_components/_navbar";
 @import "_components/highlights";
 @import "_components/footer";
+@import "_components/hero";
 
 body {
   background: $body;
@@ -258,33 +259,6 @@ body {
   }
 }
 /*Index*/
-.hero {
-  width: 100%;
-  min-height: 600px;
-  background-color: red;
-  background-size: cover;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url("https://68.media.tumblr.com/85126e90ce5ae959832ada14c98ffff3/tumblr_o1t1ij30Gr1two90zo1_500.gif");
-  font-size: 30px;
-
-  .button {
-    margin-bottom: 100px;
-  }
-
-  img {
-    max-height: 200px;
-  }
-
-  .content {
-    height: 550px;
-    margin: auto;
-    position: absolute;
-    top: 20%;
-    left: 0;
-    bottom: 0;
-    right: 0;
-  }
-}
-
 
 
 #games {

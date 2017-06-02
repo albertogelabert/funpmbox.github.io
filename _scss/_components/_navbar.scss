@@ -6,9 +6,10 @@
   width: 100%;
   transition: background-color 0.3s ease-in-out;
   background-color: $transparent-navbar;
+  color: $white;
 
   &.dark {
-    background-color: $navbar;
+    background-color: $blue;
   }
 
   .bar {
