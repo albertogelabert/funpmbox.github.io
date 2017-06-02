@@ -2,7 +2,11 @@ name: Your New Jekyll Site
 #markdown: redcarpet
 highlighter: rouge # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
+
 #This is ugly... Is not working as the docomentatios says. This is the only way :(
+#########################
+# Navbar
+#########################
 navbar_home_link:
   esp: /inicio.html
   eng: /index.html
@@ -17,11 +21,36 @@ navbar_games_string:
   esp: Juegos
   eng: games
 
+#########################
+# Index: first box
+#########################
 index_first_box_title:
   esp: título
   eng: The title rocks
 
 index_first_box_desc:
+  esp: Esto es la descripcion de la caja
+  eng: This is the description of the BOX
+
+#########################
+# Index: second box
+#########################
+index_second_box_title:
+  esp: título
+  eng: The title rocks
+
+index_second_box_desc:
+  esp: Esto es la descripcion de la caja
+  eng: This is the description of the BOX
+
+#########################
+# Index: third box
+#########################
+index_third_box_title:
+  esp: título
+  eng: The title rocks
+
+index_third_box_desc:
   esp: Esto es la descripcion de la caja
   eng: This is the description of the BOX
 

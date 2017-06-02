@@ -1,28 +1,23 @@
+@import "colors";
 @import "reset";
 @import "syntax";
 @import "grid";
-@import "colors";
+
+
+@import "_components/_textbox";
+@import "_components/_navbar";
+@import "_components/highlights";
+@import "_components/footer";
+@import "_components/hero";
+@import "_components/smartphone";
+@import "_components/card";
 
 body {
   background: $body;
   min-height: 150vh;
   font-family: 'Roboto', sans-serif;
-  color: white;
 }
 
-a {
-  text-decoration: none;
-  transition: color 0.3s ease-in-out;
-  color: white;
-
-  &:hover {
-    color: $blue;
-  }
-
-  &:visited {
-    color: darken(white, 10);
-  }
-}
 
 .fadein {
   animation: fadein 2s;
@@ -90,53 +85,7 @@ a {
   }
 }
 
-.footer {
-  position: relative;
-  min-height: 300px;
-  width: 100%;
-  border: none;
-  background-color: $footer;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  position: fixed;
 
-
-
-  .languages{
-  
-  }
-  .contact{
-    margin-bottom: 50px;
-  }
-
-  .text{
-    padding: 30px;
-    text-align: left;
-    color: white;
-    margin-top: 150px;
-
-    li{
-      font-size: 15px;
-    }
-
-    h1{
-      font-size: 25px;
-    }
-    h2{
-      font-size: 15px;
-    }
-  }
-
-  .uiblogo {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url("/img/uiblogo.png");
-    min-height: 300px;
-    margin-top: 100px;
-  }
-}
 @keyframes leftpop {
   from {
     transform: translateX(-10vw);
@@ -176,87 +125,6 @@ a {
   }
 }
 
-.card {
-  h1 {
-    font-size: 30px;
-  }
-
-  p {
-    font-size: 15px;
-  }
-  background-color: blue;
-  margin-bottom: 50px;
-
-  .thumbnail {
-    .image {
-      background-color: yellow;
-      background-size: cover;
-      background-repeat: no-repeat;
-      height: 250px;
-      overflow: hidden;
-    }
-
-    .stats {
-      background-color: white;
-      border-radius: 0;
-    }
-  }
-
-  .description {
-    text-align: left;
-    padding: 25px;
-  }
-}
-/*
-.card {
-  margin-top: 30px;
-  transition: all 0.2s ease-in-out;
-  z-index: 1;
-  background-color: $card-border;
-  padding: 0;
-
-  .row {
-    margin-bottom: 0;
-  }
-
-  &:hover {
-    transform: scale(1.04);
-    box-shadow: 12px 12px 150px lighten(black,40);
-    z-index: 2;
-    position: relative;
-  }
-
-  .thumbnail {
-    margin: 0;
-
-    .image {
-      height: 400px;
-      background-color: brown;
-    }
-
-    .stats {
-      height: 50px;
-      margin-top: -50px;
-      border-radius: 0;
-    }
-  }
-
-  .description {
-    text-align: left;
-    padding: 30px;
-
-    h1 {
-      font-size: 250%;
-      animation: fadein 0.8s;
-    }
-
-    p {
-      font-size: 125%;
-      line-height: 200%;
-      animation: fadein 1.5s;
-    }
-  }
-}*/
 .parallax {
   /* Set a specific height */
   min-height: 350px;
@@ -299,167 +167,21 @@ a {
   }
 }
 
-.navbar {
-  padding: 8px;
-  position: fixed;
-  z-index: 10;
-  background-color: none;
-  width: 100%;
-  transition: background-color 0.3s ease-in-out;
-  background-color: $transparent-navbar;
 
-  &.dark {
-    background-color: $navbar;
-  }
-
-  .bar {
-    transition: all 0.3s ease-in-out;
-    text-align: center;
-    z-index: 500;
-    height: 50px;
-    overflow: hidden;
-
-    .text {
-      font-size: 40px;
-      float: none;
-    }
-
-    &.visible {
-      margin-left: 280px;
-    }
-  }
-
-  .dropdown {
-    font-size: 17px;
-    overflow-y: auto;
-    margin-top: 8px;
-    height: 100vh;
-    width: 350px;
-    left: -350px;
-    position: fixed;
-    z-index: 10;
-    background-color: $dropdown;
-    transition: all 0.3s ease-in-out;
-
-    .button {
-      margin-top: 30px;
-    }
-
-    li {
-      float: none;
-      margin: 10px 0;
-      text-align: left;
-      transition: color 0.3s ease-in-out;
-
-      &:hover {
-        color: $blue;
-      }
-    }
-
-    a:hover {
-      color: $blue;
-    }
-
-    &.visible {
-      left: 0;
-    }
-  }
-}
-/*Hamburguer Icon*/
-#nav-icon4 {
-  transform: scale(0.6);
-  width: 60px;
-  height: 45px;
-  position: relative;
-  margin: 3px;
-  -webkit-transition: 0.5s ease-in-out;
-  -moz-transition: 0.5s ease-in-out;
-  -o-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
-  cursor: pointer;
-  float: left;
-  display: inline;
-}
-
-#nav-icon4 span {
-  display: block;
-  position: absolute;
-  height: 6px;
-  width: 100%;
-  background: white;
-  border-radius: 9px;
-  opacity: 1;
-  left: 0;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: 0.25s ease-in-out;
-  -moz-transition: 0.25s ease-in-out;
-  -o-transition: 0.25s ease-in-out;
-  transition: 0.25s ease-in-out;
-}
-
-#nav-icon4 span:nth-child(1) {
-  top: 0;
-  -webkit-transform-origin: left center;
-  -moz-transform-origin: left center;
-  -o-transform-origin: left center;
-  transform-origin: left center;
-}
-
-#nav-icon4 span:nth-child(2) {
-  top: 18px;
-  -webkit-transform-origin: left center;
-  -moz-transform-origin: left center;
-  -o-transform-origin: left center;
-  transform-origin: left center;
-}
-
-#nav-icon4 span:nth-child(3) {
-  top: 36px;
-  -webkit-transform-origin: left center;
-  -moz-transform-origin: left center;
-  -o-transform-origin: left center;
-  transform-origin: left center;
-}
-
-#nav-icon4.open span:nth-child(1) {
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-  top: -3px;
-  left: 8px;
-}
-
-#nav-icon4.open span:nth-child(2) {
-  width: 0;
-  opacity: 0;
-}
-
-#nav-icon4.open span:nth-child(3) {
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  top: 39px;
-  left: 8px;
-}
 
 .stats {
   border-radius: 5px;
   position: relative;
-  margin-top: -25px;
+  margin-top: -85px;
   height: 80px;
   background-color: white;
   margin-left: auto;
   margin-right: auto;
-  max-width: 400px;
+
   padding-bottom: 5px;
 
   .fa {
-    color: $black;
+    //color: $black;
     font-size: 45px;
     margin-bottom: 5px;
   }
@@ -471,7 +193,7 @@ a {
 
     span {
       font-size: 15px;
-      color: $black;
+      //color: $black;
       display: block;
     }
   }
@@ -508,151 +230,7 @@ a {
   }
 }
 /*Index*/
-.hero {
-  width: 100%;
-  min-height: 600px;
-  background-color: red;
-  background-size: cover;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url("https://68.media.tumblr.com/85126e90ce5ae959832ada14c98ffff3/tumblr_o1t1ij30Gr1two90zo1_500.gif");
-  font-size: 30px;
 
-  .button {
-    margin-bottom: 100px;
-  }
-
-  img {
-    max-height: 200px;
-  }
-
-  .content {
-    height: 550px;
-    margin: auto;
-    position: absolute;
-    top: 20%;
-    left: 0;
-    bottom: 0;
-    right: 0;
-  }
-}
-
-.highlights {
-  color: black;
-  min-height: 300px;
-  background-color: $highlights;
-  vertical-align: middle;
-  padding-top: 10px;
-
-  h1 {
-    font-size: 30px;
-    margin: 30px 30px 50px;
-  }
-
-  .fa {
-    font-size: 80px;
-    margin-bottom: 10px;
-  }
-
-  span {
-    font-size: 15px;
-    color: $black;
-    display: block;
-    text-align: justify;
-    margin-bottom: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-}
-
-.boxcontent {
-  margin-top: -20px; //WTF, I dont see where the margin is coming . TODO
-  min-height: 300px;
-  background-color: $boxcontent;
-
-  .text {
-    h1 {
-      font-size: 30px;
-    }
-
-    p {
-      font-size: 15px;
-    }
-    text-align: left;
-    padding: 30px;
-  }
-
-  .image {
-    min-height: 300px;
-    background-image: url("http://contenidos.enter.co/custom/uploads/2015/09/comprar-un-iPhone.jpg");
-    background-size: 100%;
-    background-position: center;
-    transition: background-size 1s ease-in-out;
-
-    &:hover {
-      background-size: 110%;
-    }
-  }
-}
-
-.boxonline {
-  margin-top: -20px; //WTF, I dont see where the margin is coming . TODO
-  min-height: 300px;
-  background-color: $boxonline;
-
-  .text {
-    h1 {
-      font-size: 30px;
-    }
-
-    p {
-      font-size: 15px;
-    }
-    text-align: left;
-    padding: 30px;
-  }
-
-  .image {
-    background-image: url("http://phandroid.s3.amazonaws.com/wp-content/uploads/2013/11/Nexus-5-unboxing-featured.jpg");
-    min-height: 300px;
-    background-size: 100%;
-    background-position: center;
-    transition: background-size 1s ease-in-out;
-
-    &:hover {
-      background-size: 110%;
-    }
-  }
-}
-
-.buybox {
-  margin-top: -20px; //WTF, I dont see where the margin is coming . TODO
-  min-height: 300px;
-  background-color: $buybox;
-
-  .text {
-    h1 {
-      font-size: 30px;
-    }
-
-    p {
-      font-size: 15px;
-    }
-    text-align: left;
-    padding: 30px;
-  }
-
-  .image {
-    min-height: 300px;
-    background-image: url("http://guiadossolteiros.com/wp-content/uploads/2016/04/compras-online.jpg");
-    overflow: hidden;
-    background-size: 100%;
-    background-position: center;
-    transition: background-size 1s ease-in-out;
-
-    &:hover {
-      background-size: 110%;
-    }
-  }
-}
 
 #games {
   padding-top: 50px;
@@ -666,8 +244,7 @@ a {
 }
 
 .wrapper {
-  background-color: green;
-  margin-bottom: 350px;
+  background-color: $dark-white;
 }
 /*navbar*/
 .button-hv {
@@ -713,41 +290,12 @@ a {
   }
 }
 
-.smartphone {
-  background-color: red;
-  min-height: 400px;
-  overflow: hidden;
 
-  .text {
-    h1 {
-      font-size: 30px;
-    }
-
-    p {
-      font-size: 15px;
-    }
-    text-align: left;
-    margin-top: 50px;
-    padding: 50px;
-  }
-
-  .image {
-    width: 100%;
-  }
-
-  img {
-    margin-bottom: -200px;
-    margin-top: 150px;
-  }
-}
 
 @media (max-width: 600px) {
-  .wrapper {
-    margin-bottom: 700px;
+  .textbox .text {
+    text-align: center;
   }
 
-  .footer .text {
-
-    margin-top: 0px;
-  }
+ 
 }

@@ -43,10 +43,12 @@ $element-bottom-margin: ($gutter-width*2)/3 !default;
     width: 70%;
   }
 }
+/*This causes a lot of troubles
 .container .row {
   margin-left: (-1 * $gutter-width / 2);
   margin-right: (-1 * $gutter-width / 2);
 }
+*/
 
 .section {
   padding-top: 1rem;
