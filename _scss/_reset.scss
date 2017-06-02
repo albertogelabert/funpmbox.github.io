@@ -179,3 +179,16 @@ li {
   list-style: none;
   text-decoration: none;
 }
+
+a {
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+
+  &:hover {
+    color: $blue;
+  }
+
+  &:visited {
+    color: darken(white, 10);
+  }
+}
