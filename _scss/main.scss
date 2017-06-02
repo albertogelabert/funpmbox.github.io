@@ -7,6 +7,7 @@
 @import "_components/_textbox";
 @import "_components/_navbar";
 @import "_components/highlights";
+@import "_components/footer";
 
 body {
   background: $body;
@@ -152,56 +153,6 @@ body {
     padding: 25px;
   }
 }
-/*
-.card {
-  margin-top: 30px;
-  transition: all 0.2s ease-in-out;
-  z-index: 1;
-  background-color: $card-border;
-  padding: 0;
-
-  .row {
-    margin-bottom: 0;
-  }
-
-  &:hover {
-    transform: scale(1.04);
-    box-shadow: 12px 12px 150px lighten(black,40);
-    z-index: 2;
-    position: relative;
-  }
-
-  .thumbnail {
-    margin: 0;
-
-    .image {
-      height: 400px;
-      background-color: brown;
-    }
-
-    .stats {
-      height: 50px;
-      margin-top: -50px;
-      border-radius: 0;
-    }
-  }
-
-  .description {
-    text-align: left;
-    padding: 30px;
-
-    h1 {
-      font-size: 250%;
-      animation: fadein 0.8s;
-    }
-
-    p {
-      font-size: 125%;
-      line-height: 200%;
-      animation: fadein 1.5s;
-    }
-  }
-}*/
 .parallax {
   /* Set a specific height */
   min-height: 350px;
@@ -349,7 +300,6 @@ body {
 
 .wrapper {
   background-color: $dark-white;
-  margin-bottom: 350px;
 }
 /*navbar*/
 .button-hv {
@@ -424,12 +374,9 @@ body {
 }
 
 @media (max-width: 600px) {
-  .wrapper {
-    margin-bottom: 700px;
+  .textbox .text {
+    text-align: center;
   }
 
-  .footer .text {
-
-    margin-top: 0px;
-  }
+ 
 }
