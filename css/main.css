@@ -1001,7 +1001,7 @@ a {
         left: 100%; } }
 
 .textbox {
-  background-color: white;
+  background-color: #FFFFFF;
   margin-top: -18px; }
   .textbox .text {
     text-align: left;
@@ -1012,6 +1012,15 @@ a {
     .textbox .text p {
       font-size: 15px;
       color: #9C9C9C; }
+  .textbox.blue {
+    background-color: #0078D7;
+    color: #FFFFFF; }
+    .textbox.blue h1 {
+      color: #FFFFFF; }
+    .textbox.blue p {
+      color: #FFFFFF; }
+  .textbox .blue {
+    color: white; }
   .textbox .image {
     min-height: 300px;
     width: 100px;
@@ -1033,7 +1042,7 @@ a {
   background-color: rgba(0, 0, 0, 0.2);
   color: #FFFFFF; }
   .navbar.dark {
-    background-color: #0078D7; }
+    background-color: #006abe; }
   .navbar .bar {
     transition: all 0.3s ease-in-out;
     text-align: center;
@@ -1127,13 +1136,48 @@ a {
   top: 39px;
   left: 8px; }
 
+.button-hv {
+  -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s; }
+  .button-hv:after {
+    position: absolute;
+    transition: 0.3s;
+    content: '';
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    height: 3px;
+    background: #f7f7f7; }
+  .button-hv:after {
+    height: 120%;
+    left: -10%;
+    -webkit-transform: skewX(15deg);
+            transform: skewX(15deg);
+    z-index: -1; }
+  .button-hv:hover {
+    color: #5bcaff;
+    cursor: pointer; }
+    .button-hv:hover:after {
+      width: 100%;
+      left: 0; }
+    .button-hv:hover:after {
+      left: -10%;
+      width: 120%; }
+
 .highlights {
   color: #FFFFFF;
   min-height: 300px;
   background-color: #0078D7;
   vertical-align: middle;
   padding-top: 10px;
-  margin-bottom: -20px; }
+  margin-bottom: -20px;
+  padding-bottom: 30px; }
   .highlights h1 {
     font-size: 30px;
     margin: 30px 30px 50px; }
@@ -1263,64 +1307,86 @@ a {
     text-align: left;
     padding: 25px; }
 
+.button {
+  border-radius: 50px;
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+  border: 4px solid #0078D7;
+  color: #0078D7;
+  font-size: 15px;
+  transition: all ease-in-out 0.2s;
+  margin: auto;
+  margin-top: 30px; }
+  .button:hover {
+    color: #FFFFFF;
+    border: 3px solid #444444;
+    background-color: #444444; }
+
+.buymebox {
+  margin-top: -20px;
+  background-color: #0078D7;
+  color: #FFFFFF;
+  padding: 50px; }
+  .buymebox h1 {
+    font-size: 30px; }
+  .buymebox p {
+    font-size: 15px; }
+  .buymebox .button {
+    border: 4px solid #FFFFFF;
+    color: #FFFFFF;
+    transition: all ease-in-out 0.2s;
+    margin: auto;
+    margin-top: 30px; }
+    .buymebox .button:hover {
+      color: #FFFFFF;
+      border: 3px solid #444444;
+      background-color: #444444; }
+
+.contact-form {
+  padding: 30px;
+  padding-top: 100px;
+  background-color: #24313c;
+  margin-bottom: 250px;
+  top: 150px;
+  position: relative;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #FFFFFF; }
+  .contact-form h1 {
+    font-size: 35px; }
+  .contact-form input, .contact-form textarea {
+    margin: 0px;
+    padding: 10px;
+    background-color: #24313c;
+    color: #FFFFFF;
+    border: solid;
+    width: 90%;
+    margin-bottom: 30px;
+    font-size: 20px; }
+    .contact-form input:focus, .contact-form textarea:focus {
+      border-color: #1ab188;
+      outline: 0; }
+  .contact-form .button-form {
+    background-color: #1ab188;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 100px;
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 30px; }
+    .contact-form .button-form:hover {
+      background-color: #179b77; }
+
 body {
   background: #FFFFFF;
-  min-height: 150vh;
   font-family: 'Roboto', sans-serif; }
 
 .fadein {
   -webkit-animation: fadein 2s;
           animation: fadein 2s; }
-
-.button {
-  width: 250px;
-  color: white;
-  margin: 0 auto;
-  padding: 3px;
-  border-radius: 50px;
-  border: 1px solid white;
-  transition: all 0.5s ease-in-out;
-  text-align: center; }
-  .button:hover {
-    color: #0078D7;
-    border: 1px solid #0078D7; }
-
-.header {
-  z-index: 1;
-  position: relative;
-  background-image: url("https://images.unsplash.com/photo-1443996104801-80c82e789b18?dpr=1&auto=format&fit=crop&w=767&h=510&q=80&cs=tinysrgb&crop=&bg=");
-  background-size: cover;
-  min-height: 100vh;
-  text-align: left;
-  width: 100%;
-  min-height: 100vh;
-  height: auto;
-  overflow: hidden;
-  color: white;
-  padding-top: 0; }
-  .header .button {
-    margin-bottom: 10vh; }
-  .header .text {
-    margin: 0 auto;
-    padding: 40px;
-    min-height: 100vh;
-    margin-bottom: -20px;
-    box-shadow: 13px 13px 160px 50px rgba(0, 0, 0, 0.5);
-    background-color: #444444;
-    -webkit-animation: leftpop 0.5s;
-            animation: leftpop 0.5s; }
-    .header .text .button {
-      margin-top: 10vh; }
-    .header .text h1 {
-      font-size: 250%;
-      -webkit-animation: fadein 0.8s;
-              animation: fadein 0.8s;
-      margin-top: 30px; }
-    .header .text p {
-      font-size: 125%;
-      line-height: 200%;
-      -webkit-animation: fadein 1.5s;
-              animation: fadein 1.5s; }
 
 @-webkit-keyframes leftpop {
   from {
@@ -1361,6 +1427,8 @@ body {
   background-size: cover; }
 
 .post {
+  padding: 50px;
+  margin-bottom: 30px;
   font-size: 17px;
   text-align: left; }
   .post h1 {
@@ -1369,9 +1437,8 @@ body {
 
 .postheader {
   position: relative;
-  max-height: 50vh;
-  background-color: red;
-  padding: 30px; }
+  height: 500px;
+  color: #FFFFFF; }
   .postheader img {
     max-height: 50vh;
     -webkit-filter: blur(3px);
@@ -1385,48 +1452,25 @@ body {
     -webkit-animation: fadein 0.8s;
             animation: fadein 0.8s;
     z-index: 2; }
+  .postheader .stats {
+    position: relative;
+    top: 415px;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px; }
+    .postheader .stats .fa {
+      font-size: 45px;
+      margin-bottom: 5px; }
+    .postheader .stats .stat {
+      display: table-cell;
+      vertical-align: middle;
+      padding-top: 10px; }
+      .postheader .stats .stat span {
+        font-size: 15px;
+        display: block; }
 
-.stats {
-  border-radius: 5px;
-  position: relative;
-  margin-top: -85px;
-  height: 80px;
-  background-color: white;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 5px; }
-  .stats .fa {
-    font-size: 45px;
-    margin-bottom: 5px; }
-  .stats .stat {
-    display: table-cell;
-    vertical-align: middle;
-    padding-top: 10px; }
-    .stats .stat span {
-      font-size: 15px;
-      display: block; }
-
-.material {
-  background-color: red;
-  margin-top: 30px;
-  margin-bottom: 30px; }
-  .material .text {
-    text-align: left;
-    padding: 30px; }
-    .material .text h1 {
-      font-size: 30px; }
-    .material .text p {
-      font-size: 17px; }
-  .material .image {
-    overflow: hidden;
-    min-height: 300px;
-    background-size: 100%;
-    background-position: center;
-    transition: background-size 1s ease-in-out; }
-    .material .image:hover {
-      background-size: 110%; }
-
-/*Index*/
 #games {
   padding-top: 50px;
   padding-bottom: 50px; }
@@ -1438,41 +1482,9 @@ body {
 .wrapper {
   background-color: #F4F6F5; }
 
-/*navbar*/
-.button-hv {
-  -ms-flex: 1 1 auto;
-      flex: 1 1 auto;
-  padding: 20px;
-  text-align: center;
-  text-transform: uppercase;
-  position: relative;
-  overflow: hidden;
-  transition: 0.3s; }
-  .button-hv:after {
-    position: absolute;
-    transition: 0.3s;
-    content: '';
-    width: 0;
-    left: 50%;
-    bottom: 0;
-    height: 3px;
-    background: #f7f7f7; }
-  .button-hv:after {
-    height: 120%;
-    left: -10%;
-    -webkit-transform: skewX(15deg);
-            transform: skewX(15deg);
-    z-index: -1; }
-  .button-hv:hover {
-    color: #5bcaff;
-    cursor: pointer; }
-    .button-hv:hover:after {
-      width: 100%;
-      left: 0; }
-    .button-hv:hover:after {
-      left: -10%;
-      width: 120%; }
-
 @media (max-width: 600px) {
   .textbox .text {
     text-align: center; } }
+
+#disqus_thread {
+  padding-bottom: 50px; }

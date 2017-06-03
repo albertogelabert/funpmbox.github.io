@@ -11,10 +11,13 @@
 @import "_components/hero";
 @import "_components/smartphone";
 @import "_components/card";
+@import "_components/button";
+@import "_components/buymebox";
+@import "_components/contact";
+
 
 body {
   background: $body;
-  min-height: 150vh;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -23,67 +26,6 @@ body {
   animation: fadein 2s;
 }
 
-.button {
-  //background-color: green;
-  width: 250px;
-  color: $button;
-  margin: 0 auto;
-  padding: 3px;
-  border-radius: 50px;
-  border: 1px solid white;
-  transition: all 0.5s ease-in-out;
-  text-align: center;
-
-  &:hover {
-    color: $button-hover;
-    border: 1px solid $button-hover;
-  }
-}
-
-.header {
-  z-index: 1;
-  position: relative;
-  background-image: url("https://images.unsplash.com/photo-1443996104801-80c82e789b18?dpr=1&auto=format&fit=crop&w=767&h=510&q=80&cs=tinysrgb&crop=&bg=");
-  background-size: cover;
-  min-height: 100vh;
-  text-align: left;
-  width: 100%;
-  min-height: 100vh;
-  height: auto;
-  overflow: hidden;
-  color: white;
-  padding-top: 0;
-
-  .button {
-    margin-bottom: 10vh;
-  }
-
-  .text {
-    margin: 0 auto;
-    padding: 40px;
-    min-height: 100vh;
-    margin-bottom: -20px;
-    box-shadow: 13px 13px 160px 50px rgba(0,0,0,0.5);
-    background-color: $black;
-    animation: leftpop 0.5s;
-
-    .button {
-      margin-top: 10vh;
-    }
-
-    h1 {
-      font-size: 250%;
-      animation: fadein 0.8s;
-      margin-top: 30px;
-    }
-
-    p {
-      font-size: 125%;
-      line-height: 200%;
-      animation: fadein 1.5s;
-    }
-  }
-}
 
 
 @keyframes leftpop {
@@ -136,6 +78,8 @@ body {
 }
 
 .post {
+  padding: 50px;
+  margin-bottom: 30px;
   font-size: 17px;
   text-align: left;
 
@@ -147,9 +91,8 @@ body {
 
 .postheader {
   position: relative;
-  max-height: 50vh;
-  background-color: red;
-  padding: 30px;
+  height: 500px;
+  color: $white;
 
   img {
     max-height: 50vh;
@@ -165,16 +108,12 @@ body {
     animation: fadein 0.8s;
     z-index: 2;
   }
-}
 
-
-
-.stats {
-  border-radius: 5px;
+  .stats {
   position: relative;
-  margin-top: -85px;
+  top:415px;
   height: 80px;
-  background-color: white;
+  background-color: rgba(0,0,0,0.5);
   margin-left: auto;
   margin-right: auto;
 
@@ -198,39 +137,7 @@ body {
     }
   }
 }
-
-.material {
-  background-color: red;
-  margin-top: 30px;
-  margin-bottom: 30px;
-
-  .text {
-    text-align: left;
-    padding: 30px;
-
-    h1 {
-      font-size: 30px;
-    }
-
-    p {
-      font-size: 17px;
-    }
-  }
-
-  .image {
-    overflow: hidden;
-    min-height: 300px;
-    background-size: 100%;
-    background-position: center;
-    transition: background-size 1s ease-in-out;
-
-    &:hover {
-      background-size: 110%;
-    }
-  }
 }
-/*Index*/
-
 
 #games {
   padding-top: 50px;
@@ -246,56 +153,16 @@ body {
 .wrapper {
   background-color: $dark-white;
 }
-/*navbar*/
-.button-hv {
-  flex: 1 1 auto;
-  padding: 20px;
-  text-align: center;
-  text-transform: uppercase;
-  position: relative;
-  overflow: hidden;
-  transition: 0.3s;
 
-  &:after {
-    position: absolute;
-    transition: 0.3s;
-    content: '';
-    width: 0;
-    left: 50%;
-    bottom: 0;
-    height: 3px;
-    background: #f7f7f7;
-  }
-
-  &:after {
-    height: 120%;
-    left: -10%;
-    transform: skewX(15deg);
-    z-index: -1;
-  }
-
-  &:hover {
-    color: #5bcaff;
-    cursor: pointer;
-
-    &:after {
-      width: 100%;
-      left: 0;
-    }
-
-    &:after {
-      left: -10%;
-      width: 120%;
-    }
-  }
-}
-
-
-
+//Center text on mobile
 @media (max-width: 600px) {
   .textbox .text {
     text-align: center;
   }
 
- 
 }
+
+//fix disquss n footer
+#disqus_thread{
+  padding-bottom: 50px;
+} 

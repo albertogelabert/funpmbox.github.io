@@ -9,7 +9,7 @@
   color: $white;
 
   &.dark {
-    background-color: $blue;
+    background-color: darken($blue,5);
   }
 
   .bar {
@@ -145,4 +145,48 @@
   transform: rotate(-45deg);
   top: 39px;
   left: 8px;
+}
+
+//Button with effect
+.button-hv {
+  flex: 1 1 auto;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+
+  &:after {
+    position: absolute;
+    transition: 0.3s;
+    content: '';
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    height: 3px;
+    background: #f7f7f7;
+  }
+
+  &:after {
+    height: 120%;
+    left: -10%;
+    transform: skewX(15deg);
+    z-index: -1;
+  }
+
+  &:hover {
+    color: #5bcaff;
+    cursor: pointer;
+
+    &:after {
+      width: 100%;
+      left: 0;
+    }
+
+    &:after {
+      left: -10%;
+      width: 120%;
+    }
+  }
 }

@@ -1,0 +1,28 @@
+.buymebox{
+    margin-top: -20px;
+    background-color: $blue;
+    color: $white;
+    padding: 50px;
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 15px;
+    }
+
+    .button{
+
+  border: 4px solid $white;
+  color: $white;
+  transition: all ease-in-out 0.2s;
+  margin: auto;
+  margin-top: 30px;
+
+   &:hover {
+    color: $white;
+    border: 3px solid $black;
+    background-color: $black;
+  }
+  
+}
+}
