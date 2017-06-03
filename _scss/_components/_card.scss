@@ -1,69 +1,53 @@
-
 .card {
-
     min-height: 300px;
-  h1 {
-    font-size: 30px;
-    color: $black;
-  }
-
-  p {
-    font-size: 15px;
-    color: $gray;
-  }
-  background-color: $white;
-  margin-bottom: 50px;
-
-  .thumbnail {
-
-   overflow: hidden;
-    .image {
-        margin-left: -10px; 
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url("people.gif");
-      height: 300px;
-      overflow: hidden;
+    h1 {
+        font-size: 30px;
+        color: $black;
     }
-
-    .stats {
-      background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.7));
-      border-radius: 0;
-      color: $white;
-      margin-left: -10px;
-
-        border-radius: 5px;
-  position: relative;
-  margin-top: -85px;
-  height: 80px;
-  background-color: white;
-  margin-left: auto;
-  margin-right: auto;
-
-  padding-bottom: 5px;
-
-  .fa {
-    //color: $black;
-    font-size: 45px;
-    margin-bottom: 5px;
-  }
-
-  .stat {
-    display: table-cell;
-    vertical-align: middle;
-    padding-top: 10px;
-
-    span {
-      font-size: 15px;
-      //color: $black;
-      display: block;
+    p {
+        font-size: 15px;
+        color: $gray;
     }
-  } 
+    background-color: $white;
+    margin-bottom: 50px;
+    .thumbnail {
+        overflow: hidden;
+        padding: 0px; //reset of grid padding
+        .image {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("people.gif");
+            height: 300px;
+            overflow: hidden;
+        }
+        .stats {
+            //background-color: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.7)); This is cool
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 0;
+            color: $white;
+            position: relative;
+            margin-top: -85px;
+            height: 80px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 5px;
+            .fa {
+                font-size: 45px;
+                margin-bottom: 5px;
+            }
+            .stat {
+                display: table-cell;
+                vertical-align: middle;
+                padding-top: 10px;
+                span {
+                    font-size: 15px;
+                    display: block;
+                }
+            }
+        }
     }
-  }
-
-  .description {
-    text-align: left;
-    padding: 25px;
-  }
+    .description {
+        text-align: left;
+        padding: 25px;
+    }
 }

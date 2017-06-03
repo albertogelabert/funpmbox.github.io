@@ -1231,24 +1231,21 @@ a {
     font-size: 15px;
     color: #9C9C9C; }
   .card .thumbnail {
-    overflow: hidden; }
+    overflow: hidden;
+    padding: 0px; }
     .card .thumbnail .image {
-      margin-left: -10px;
       background-size: cover;
       background-repeat: no-repeat;
       background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("people.gif");
       height: 300px;
       overflow: hidden; }
     .card .thumbnail .stats {
-      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7));
+      background-color: rgba(0, 0, 0, 0.5);
       border-radius: 0;
       color: #FFFFFF;
-      margin-left: -10px;
-      border-radius: 5px;
       position: relative;
       margin-top: -85px;
       height: 80px;
-      background-color: white;
       margin-left: auto;
       margin-right: auto;
       padding-bottom: 5px; }
