@@ -21,6 +21,14 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+a  {
+  color: $textbox;
+}
+
+a :visited {
+  color: darken($textbox,0.8);
+}
+
 
 .fadein {
   animation: fadein 2s;
@@ -165,4 +173,4 @@ body {
 //fix disquss n footer
 #disqus_thread{
   padding-bottom: 50px;
-} 
+}
