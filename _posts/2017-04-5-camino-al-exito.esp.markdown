@@ -7,7 +7,8 @@ goal: " &bull;  Establecer fortalezas y debilidades del equipo que repercuten en
 "
 players: "3-12"
 playtime: "20-25"
-phase: "Playing"
+meetingphase: "Desarrollo"
+groupphase: "Desempeño"
 date:   2014-04-20 09:11:03
 imageurl: "/img/camino_al_exito.png"
 categories: jekyll update test

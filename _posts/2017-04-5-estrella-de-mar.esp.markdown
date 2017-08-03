@@ -1,39 +1,40 @@
 ---
 layout: post
-title:  "Starfish "
-goal: " &bull;  To analyse the tasks that the team are doing, in order to know which ones to boost and which ones to stop doing.
+title:  "Estrella de mar "
+goal: " &bull;  Analizar las tareas que está realizando el equipo, para conocer cuáles hay que potenciar y cuáles dejar de hacer.
 "
 players: "3-12"
 playtime: "15-20"
-phase: "Playing"
+meetingphase: "Desarrollo"
+groupphase: "Desempeño"
 date:   2014-04-20 09:11:03
 imageurl: "/img/camino_al_exito.png"
 categories: jekyll update test
 lang: esp
 material: "
-1. Marker or sticky tape to draw the starfish.</br></br>
-2. 5 signs with the names of the areas.</br></br>
-3. Minimum of 5 sticky notes per participant.</br></br>
-4. 1 pen per participant.</br></br>
-5. Sticky notes of a different colour.
+1. Rotulador o cinta para dibujar la estrella de mar.</br></br>
+2. 5 rótulos con los nombres de las áreas.</br></br>
+3. Mínimo de 5 notas adhesivas por participante.</br></br>
+4. 1 rotulador por participante.</br></br>
+5. Notas adhesivas de otro color diferente.
 "
 ---
-- 1- Draw a 5-pointed star with 5 different areas:
+- 1- Dibuja una estrella de 5 puntas que dará lugar a 5 áreas diferentes:
 
-	- <b>a.</b> Keep doing. It should contain the tasks to which the same efforts as the current ones should be devoted.
+	- <b>a.</b> Seguir haciendo. Debe contener las tareas a las que se deben dedicar el mismo esfuerzo que el actualmente dedicado.
 
-	- <b>b.</b> Do more. Tasks to which efforts should be increased.
+	- <b>b.</b> Hacer más. Tareas a las que se deben aumentar los esfuerzos.
 
-	- <b>c.</b> Do less. Tasks to which efforts should be reduced.
+	- <b>c.</b> Hacer menos. Tareas a las que se deben disminuir los esfuerzos.
 
-	- <b>d.</b> Stop. Tasks to stop doing.
+	- <b>d.</b> Olvidar. Tareas que se deben que dejar de hacer.
 
-	- <b>e.</b> Start. Tasks to start doing.
+	- <b>e.</b> Empezar a hacer. Tareas que se deben empezar a hacer.
 
-- 2- Ask participants to write on sticky notes the tasks that could be assigned to each area. Each participant must stick the notes in the corresponding area.
+- 2- Pide a los participantes que escriban en notas adhesivas las tareas que podrían ser asignadas a cada área. Cada participante debe pegar las notas en el área correspondiente.
 
-- 3- Initiate a discussion among team members.
+- 3- Inicia un debate entre los miembros del equipo.
 
-- 4- Ask the participants to write on sticky notes of a different colour, the actions to be taken to boost or slow down the tasks in each area.
+- 4- Pide a los participantes que escriban, en notas adhesivas de un color diferente, las acciones a realizar para potenciar o frenar las tareas en cada área.
 
-- 5- Save a photo of the resulting starfish and share it with all participants.
+- 5- Guarda una foto de la estrella de mar resultante y compártela con todos los participantes.

@@ -1,12 +1,13 @@
 ---
 layout: post
-title:  "Who-What-When steps to action "
-goal: " &bull;  To define and plan the tasks to be carried out during the next period.</br></br>
-To give visibility to the tasks done by other team members.
+title:  "¿Quién hace qué? "
+goal: " &bull;  Definir y planificar las tareas que hay que llevar a cabo durante el próximo periodo.</br></br>
+&bull; Dar visibilidad a las tareas que realizan los compañeros.
 "
 players: "3-12"
 playtime: "15-20"
-phase: "Playing"
+meetingphase: "Conclusión"
+groupphase: "Desempeño"
 date:   2014-04-20 09:11:03
 imageurl: "/img/camino_al_exito.png"
 categories: jekyll update test
@@ -17,20 +18,20 @@ material: "
 3. 1 pen.
 "
 ---
-- 1- Create a 3-column table:
+- 1- Crea una tabla de 3 columnas:
 
-	- <b>a.</b> Who?
+	- <b>a.</b> ¿Quién?
 
-	- <b>b.</b> What?
+	- <b>b.</b> ¿Qué?
 
-	- <b>c.</b> When?
+	- <b>c.</b> ¿Cuándo?
 
-- 2- Ask the participants to write on sticky notes the tasks to be carried out during the next working period.
+- 2- Pide a los participantes que escriban en notas adhesivas las tareas que deben llevarse a cabo durante el próximo periodo de trabajo.
 
-- 3- Stick each note in the “What?” column, so that each note is a row in the table.
+- 3- Pega cada nota en la columna “¿Qué?”, de tal forma que cada nota constituya una fila de la tabla.
 
-- 4- Choose a note. Initiate a debate to decide among all the participants to whom to assign the task. This choice may take into account factors such as experience, capabilities, etc. Write the chosen member(s) in a new sticky note and stick it in the same row, in the “Who?” column.
+- 4- Elige una nota. Inicia un debate para decidir entre los participantes a quién asignar la tarea. Esta elección puede tener en cuenta factores como la experiencia, capacidades, etc. Escribe el(los) miembro(s) elegido(s) en una nueva nota adhesiva y pégala en la misma fila, en la columna “¿Quién?”.
 
-- 5- Follow the discussion with the aim of agreeing the maximum date for the completion of the task. Write this date on a new sticky note and stick it in the same row, in the “When?” column.
+- 5- Sigue el debate con el objetivo de pactar la fecha máxima para la finalización de la tarea. Escribe esta fecha en una nueva nota adhesiva y pégala en la misma fila, en la columna “¿Cuándo?”.
 
-- 6- Save a photo of the resulting table and share it with all participants.
+- 6- Guarda una foto de la tabla resultante y compártela con todos los participantes.

@@ -1,40 +1,41 @@
 ---
 layout: post
-title:  "Lessons learned "
-goal: " &bull;  To gather the lessons learned in a project to be useful in future projects.
+title:  "Lecciones aprendidas "
+goal: " &bull;  Recopilar las lecciones aprendidas en un proyecto para que sean de utilidad en futuros proyectos.
 "
 players: "3-12"
 playtime: "15-20"
-phase: "Playing"
+meetingphase: "Conclusión"
+groupphase: "Desempeño"
 date:   2014-04-20 09:11:03
 imageurl: "/img/camino_al_exito.png"
 categories: jekyll update test
 lang: esp
 material: "
-1. 1 marker or sticky tape to draw the matrix.</br></br>
-2. 4 signs with the names of the quadrants.</br></br>
-3. Sticky notes of 3 different colours.</br></br>
-4. 1 pen per participant.
+1. 1 rotulador o cinta para dibujar la matriz.</br></br>
+2. 4 rótulos con los nombres de los cuadrantes. </br></br>
+3. Notas adhesivas de 3 colores diferentes.</br></br>
+4. 1 rotulador por participante.
 "
 ---
-- 1- Draw or create with the tape a matrix, in which:
+- 1- Dibuja o crea con la cinta una matriz, en la que:
 
-	- <b>a.</b> The horizontal axis represents the degree of planning.
+	- <b>a.</b> El eje horizontal represente el grado de planificación.
 
-	- <b>b.</b> The vertical axis represents the degree of success.
+	- <b>b.</b> El eje vertical represente el grado de éxito.
 
-	- In this way, 4 different quadrants are obtained:
+	- De esta forma, se obtienen 4 cuadrantes diferentes:
 
-	- a. “Planned and satisfactory”: It will contain those aspects that were planned and have worked out well.
+	- a. “Planificado y satisfactorio”: Contendrá aquellos aspectos que estaban planificados y han salido bien.
 
-	- b. “Planned and failed”: It will contain those aspects that were planned and have not worked out well.
+	- b. “Planificado y fallido”: Contendrá aquellos aspectos que estaban planificados y no han salido bien.
 
-	- c. “Unplanned and failed”: It will contain those aspects that were not planned and have not worked out well.
+	- c. “No planificado y fallido”: Contendrá aquellos aspectos que no estaban planificados y no han salido bien.
 
-	- d. “Unplanned and satisfactory”: It will contain those aspects that were not planned and have worked out well.
+	- d. “No planificado y satisfactorio”: Contendrá aquellos aspectos que no estaban planificados y han salido bien.
 
-- 2- Ask the participants to write on sticky notes all those events that have occurred in the project. Use notes of one colour for positive facts and notes of another colour for negatives. Ask them to place each note in the quadrant where it fits best.
+- 2- Pide a los participantes que escriban en notas adhesivas todos aquellos hechos que han ocurrido en el proyecto. Utiliza notas de un color para los hechos positivos y notas de otro color para los negativos. Pide que sitúen cada nota en el cuadrante donde mejor encaje. 
 
-- 3- Start a discussion on the notes in the matrix. Write the lessons learned in sticky notes of a different colour to the previous ones.
+- 3- Inicia un debate sobre las notas en la matriz. Escribe las lecciones aprendidas en notas adhesivas de un color diferente a las anteriores.
 
-- 4- Save a photo of the resulting matrix and share it with all participants.
+- 4- Guarda una foto de la matriz resultante y compártela con todos los participantes.

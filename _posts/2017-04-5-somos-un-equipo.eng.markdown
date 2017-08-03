@@ -5,7 +5,8 @@ goal: "&bull; To agree among all the members on the aspects that define the team
 "
 players: "3-12"
 playtime: "15-20"
-phase: ""
+meetingphase: "Warming up"
+groupphase: "Norming"
 date:   2014-04-20 09:11:03
 imageurl: "/img/conoce_a_tus_compañeros.png"
 categories: jekyll update test

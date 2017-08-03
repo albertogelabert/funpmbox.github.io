@@ -5,7 +5,8 @@ goal: "&bull; To identify and agree on the expectations of team members on each 
 "
 players: "3-12"
 playtime: "15-20"
-phase: "Warming up"
+meetingphase: "Warming up"
+groupphase: "Norming"
 date:   2014-04-20 09:11:03
 imageurl: "/img/conoce_a_tus_compañeros.png"
 categories: jekyll update test
