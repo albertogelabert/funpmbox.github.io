@@ -1,0 +1,38 @@
+
+.footer {
+  margin-top:-20px;
+  padding-top: 30px; 
+  min-height: 300px;
+  width: 100%;
+  border: none;
+  background-color: $black;
+  
+  .contact{
+    margin-bottom: 50px;
+  }
+
+  .text{
+    padding: 30px;
+    text-align: left;
+    color: white;
+
+    li{
+      font-size: 15px;
+    }
+
+    h1{
+      font-size: 25px;
+    }
+    h2{
+      font-size: 15px;
+    }
+  }
+
+  .uiblogo {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("/img/uiblogo.png");
+    min-height: 150px;
+    margin-top: 50px;
+  }
+}

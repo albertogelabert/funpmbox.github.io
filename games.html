@@ -1,9 +1,12 @@
 ---
 layout: gamelist
 title: Games
+lang: eng
+ref: games
 ---
+{% assign posts=site.posts | where:"lang", page.lang %} <!--Multi language-->
 
-{% for post in site.posts %}
+{% for post in posts %}
 <div class="card">
   <div class="row">
     <div class="col s12 m12 l5 thumbnail ">
@@ -15,9 +18,9 @@ title: Games
         </div>
         <div class="stats">
           <div class="row">
-            <div class="stat col s4"><i class="fa fa-clock-o"></i><span>25 ''</span></div>
-            <div class="stat col s4"><i class="fa fa-users"></i><span>5-15</span></div>
-            <div class="stat col s4"><i class="fa fa-area-chart"></i><span>Playing</span></div>
+            <div class="stat col s4"><i class="fa fa-clock-o"></i><span>{{post.playtime}} ''</span></div>
+            <div class="stat col s4"><i class="fa fa-users"></i><span>{{post.players}}</span></div>
+            <div class="stat col s4"><i class="fa fa-area-chart"></i><span>{{post.phase}}</span></div>
           </div>
         </div>
 
@@ -25,10 +28,10 @@ title: Games
     </div>
     <div class="col s12 m12 l7 description">
       <a href="{{post.url}}"><h1>{{post.title}}</h1></a>
-      <p>{{post.description}}</p>
+      <p>{{post.goal}}</p>
       <a href="{{post.url}}">
         <div class="button">
-          <p>JUGAR</p>
+          <span>JUGAR</span>
         </div>
       </a>
     </div>

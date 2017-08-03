@@ -1,0 +1,23 @@
+---
+layout: home
+title: Fun PMBOX
+lang: esp
+ref: index
+---
+{% include hero.html %}
+<div id="content">
+  {% include highlights.html %}
+  {% include boxcontent.html %}
+  {% include boxonline.html %}
+  {% include buybox.html %}
+</div>
+
+
+<!--ScrollReveal Config-->
+<script type="text/javascript">
+  window.sr = ScrollReveal();
+  sr.reveal('.boxcontent');
+  sr.reveal('.boxonline');
+  sr.reveal('.buybox');
+  sr.reveal('.item', 100);
+</script>

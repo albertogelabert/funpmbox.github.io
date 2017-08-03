@@ -1,0 +1,47 @@
+---
+layout: gamelist
+title: Games
+lang: esp
+ref: games
+---
+{% assign posts=site.posts | where:"lang", page.lang %} <!--Multi language-->
+
+{% for post in posts %}
+<div class="card">
+  <div class="row">
+    <div class="col s12 m12 l5 thumbnail ">
+
+
+        <!--<img src="{{post.imageurl}}" alt="">-->
+        <div class="image" style="background-image: url({{post.imageurl}})">
+
+        </div>
+        <div class="stats">
+          <div class="row">
+            <div class="stat col s4"><i class="fa fa-clock-o"></i><span>{{post.playtime}} ''</span></div>
+            <div class="stat col s4"><i class="fa fa-users"></i><span>{{post.players}}</span></div>
+            <div class="stat col s4"><i class="fa fa-area-chart"></i><span>{{post.phase}}</span></div>
+          </div>
+        </div>
+
+
+    </div>
+    <div class="col s12 m12 l7 description">
+      <a href="{{post.url}}"><h1>{{post.title}}</h1></a>
+      <p>{{post.goal}}</p>
+      <a href="{{post.url}}">
+        <div class="button">
+          <span>JUGAR</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+{% endfor %}
+<!--ScrollReveal Config-->
+<script type="text/javascript">
+  window.sr = ScrollReveal();
+  sr.reveal('.card');
+  sr.reveal('.item', 100);
+</script>

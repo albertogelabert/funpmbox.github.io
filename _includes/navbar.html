@@ -5,25 +5,24 @@
 
     <div id="nav-icon4"><span></span><span></span><span></span></div>
 
-    <span class="text">PMBOX</span>
+    <a href="/"><span class="text">PMBOX</span></a>
 
   </div>
 
   <div class="dropdown">
     <ul>
-      <li><a href="/"><div class="button-hv">Home</div></a></li>
-      <li><a href="/games.html"><div class="button-hv">All Games</div></a></li>
-      <li><div class="button-hv">Category 1</div></li>
-      <li><div class="button-hv">Category 2</div></li>
-      <li><div class="button-hv">Category 3</div></li>
-      <hr>
+      <!--<li><a href="/"><div class="button-hv">Home</div></a></li>
+      <li><a href="/games.html"><div class="button-hv">All Games</div></a></li>-->
+      <li><a href="{{ site.navbar_home_link[page.lang] }}"><div class="button-hv">{{ site.navbar_home_string[page.lang] }}</div></a></li>
+      <li><a href="{{ site.navbar_games_link[page.lang] }}"><div class="button-hv">{{ site.navbar_games_string[page.lang] }}</div></a></li>
+      <hr><hr>
       <li>
         <div class="button">
-          <p>JUGAR</p>
+          <p>COMPRAR JUEGO</p>
         </div>
       </li>
-    </ul>
 
+      </ul>
   </div>
 
 </div>
