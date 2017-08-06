@@ -2,8 +2,6 @@
 @import "reset";
 @import "syntax";
 @import "grid";
-
-
 @import "_components/_textbox";
 @import "_components/_navbar";
 @import "_components/highlights";
@@ -15,27 +13,22 @@
 @import "_components/buymebox";
 @import "_components/contact";
 
-
 body {
   background: $body;
   font-family: 'Roboto', sans-serif;
 }
 
-a  {
+a {
   color: $textbox;
 }
 
-a :visited {
+a:visited {
   color: darken($textbox,0.8);
 }
-
 
 .fadein {
   animation: fadein 2s;
 }
-
-
-
 @keyframes leftpop {
   from {
     transform: translateX(-10vw);
@@ -118,33 +111,32 @@ a :visited {
   }
 
   .stats {
-  position: relative;
-  top:415px;
-  height: 80px;
-  background-color: rgba(0,0,0,0.5);
-  margin-left: auto;
-  margin-right: auto;
+    position: relative;
+    top: 415px;
+    height: 80px;
+    background-color: rgba(0,0,0,0.5);
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
 
-  padding-bottom: 5px;
-
-  .fa {
-    //color: $black;
-    font-size: 45px;
-    margin-bottom: 5px;
-  }
-
-  .stat {
-    display: table-cell;
-    vertical-align: middle;
-    padding-top: 10px;
-
-    span {
-      font-size: 15px;
+    .fa {
       //color: $black;
-      display: block;
+      font-size: 45px;
+      margin-bottom: 5px;
+    }
+
+    .stat {
+      display: table-cell;
+      vertical-align: middle;
+      padding-top: 10px;
+
+      span {
+        font-size: 15px;
+        //color: $black;
+        display: block;
+      }
     }
   }
-}
 }
 
 #games {
@@ -161,17 +153,15 @@ a :visited {
 .wrapper {
   background-color: $dark-white;
 }
-
 //Center text on mobile
 @media (max-width: 600px) {
   .textbox .text {
     text-align: center;
   }
-
 }
-
 //fix disquss n footer
-#disqus_thread{
+
+#disqus_thread {
   padding-bottom: 50px;
 }
 
