@@ -1416,6 +1416,11 @@ a {
     text-align: left;
     padding: 25px; }
 
+@media (max-width: 993px) {
+  .card .thumbnail {
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px; } }
+
 .button {
   border-radius: 50px;
   width: 200px;
