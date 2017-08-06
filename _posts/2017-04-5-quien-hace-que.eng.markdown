@@ -2,11 +2,12 @@
 layout: post
 title:  "Who-What-When steps to action "
 goal: " &bull;  To define and plan the tasks to be carried out during the next period.</br></br>
-To give visibility to the tasks done by other team members.
+&bull; To give visibility to the tasks done by other team members.
 "
 players: "3-12"
 playtime: "15-20"
-phase: "Playing"
+meetingphase: "Wrapping up"
+groupphase: "Performing"
 date:   2014-04-20 09:11:03
 imageurl: "/img/camino_al_exito.png"
 categories: jekyll update test

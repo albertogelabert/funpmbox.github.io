@@ -6,7 +6,8 @@ goal: " &bull;  To define the principles of the team in a democratic way.<br></b
 "
 players: "3-12"
 playtime: "15-20"
-phase: "Playing"
+meetingphase: "Warming up"
+groupphase: "Storming"
 date:   2014-04-20 09:11:03
 imageurl: "/img/definir_principios.png"
 categories: jekyll update test

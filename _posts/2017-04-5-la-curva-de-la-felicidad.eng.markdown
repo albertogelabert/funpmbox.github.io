@@ -6,7 +6,8 @@ goal: "&bull; To identify the problems arisen in a previous working period.<br><
 "
 players: "3-12"
 playtime: "10-15"
-phase: "Playing"
+meetingphase: "Playing"
+groupphase: "Performing"
 date:   2014-04-20 09:11:03
 imageurl: "/img/conoce_a_tus_compañeros.png"
 categories: jekyll update test

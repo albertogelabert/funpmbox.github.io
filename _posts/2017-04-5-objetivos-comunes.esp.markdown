@@ -1,34 +1,35 @@
 ---
 layout: post
-title:  "Starfish "
-goal: " &bull;  To agree and prioritize the goals to be met by the team in the short, medium and/or long term.
+title:  "Objetivos comunes "
+goal: " &bull;  Consensuar y priorizar los objetivos a cumplir por el equipo tanto a corto, medio y/o largo plazo.
 "
 players: "3-12"
 playtime: "15-20"
-phase: "Playing"
+meetingphase: "Conclusión"
+groupphase: "Normalización"
 date:   2014-04-20 09:11:03
 imageurl: "/img/camino_al_exito.png"
 categories: jekyll update test
 lang: esp
 material: "
-1. Signs with the “Facebook post” image.</br></br>
-2. 1 pen per participant.</br></br>
-3. 3 signs with the “Like” image per participant.</br></br>
-4. Sticky notes.
+1. Rótulos con la imagen de “Publicación en Facebook”.</br></br>
+2. 1 rotulador por participante.</br></br>
+3. 3 rótulos con la imagen de “Me gusta” por participante.</br></br>
+4. Notas adhesivas.
 "
 ---
-- 1- Give the participants different signs with the “Facebook post” image.
+- 1- Reparte a los participantes diferentes rótulos con la imagen “Publicación en Facebook”.
 
-- 2- Ask them to describe some important goal or event and to assign a date when it should have been achieved.
+- 2- Pide que cada uno de ellos describa algún objetivo o acontecimiento importante y que asigne una fecha en la que debería haberse conseguido.
 
-- 3- Order the “Facebook posts” according to the estimated date of achievement.
+- 3- Ordena las “Publicaciones en Facebook” según su fecha estimada de consecución.
 
-- 4- Give each participant 3 “Like” signs.
+- 4- Reparte a cada participante 3 rótulos “Me gusta”.
 
-- 5- Ask participants to assign their “Likes” to the most priority goals. A participant cannot assign all their “Likes” to the same publication.
+- 5- Pide a los participantes que repartan sus “Me gusta” a aquellos objetivos que crean son más prioritarios. Un participante no puede depositar todos sus “Me gusta” en una misma publicación.
 
-- 6- Count the “Likes” assigned to each goal in order to identify the goal with the highest priority.
+- 6- Cuenta los “Me gusta” asignados a cada objetivo para ver cuáles son más prioritarios.
 
-- 7- Initiate a debate on what actions to take to ensure compliance with the goals within the deadlines. Write these actions on sticky notes and stick them under each post.
+- 7- Inicia un debate sobre qué acciones tomar para asegurar el cumplimiento de los objetivos dentro del plazo. Escribe estas acciones en notas adhesivas y pégalas debajo de cada publicación.
 
-- 8- Save a photo of the result and share it with all participants.
+- 8- Guarda una foto del resultado y compártela con todos los participantes.

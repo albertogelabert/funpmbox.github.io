@@ -6,9 +6,10 @@ goal: " &bull;  To break the ice between the members of a team.</br></br>
 "
 players: "6-12"
 playtime: "10-15"
-phase: "Playing"
+meetingphase: "Warming up"
+groupphase: "Forming"
 date:   2014-04-20 09:11:03
-imageurl: "/img/camino_al_exito.png"
+imageurl: "/img/abril_aguas_mil.png"
 categories: jekyll update test
 lang: eng
 material: "

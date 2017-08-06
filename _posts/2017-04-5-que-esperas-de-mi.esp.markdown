@@ -1,20 +1,20 @@
 ---
 layout: post
 title: "¿Qué esperáis de mí? "
-goal: "&bull; To agree among all the members the aspects that define the team.<br></br>
+goal: "&bull; Identificar y consensuar las expectativas que tienen los miembros del equipo sobre cada uno de los roles definidos.<br></br>
 "
 players: "3-12"
 playtime: "15-25"
-phase: "Warming up"
+meetingphase: "Calentamiento"
+groupphase: "Normalización"
 date:   2014-04-20 09:11:03
 imageurl: "/img/conoce_a_tus_compañeros.png"
 categories: jekyll update test
 lang: esp
 material: "
-1. Marker or sticky tape to draw the matrix.</br></br>
-2. Sticky notes.</br></br>
-3. Minimum of 4 sticky notes per participant.</br></br>
-4. 1 pen per participant. <br></br>
+1. Rotulador o cinta para dibujar la matriz. </br></br>
+2. Notas adhesivas. </br></br>
+3. 1 rotulador por participante.</br></br>
 "
 ---
 - 1- Identifica todos los roles que desempeñan los diferentes miembros del equipo.

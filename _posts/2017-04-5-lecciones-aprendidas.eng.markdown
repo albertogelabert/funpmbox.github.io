@@ -5,7 +5,8 @@ goal: " &bull;  To gather the lessons learned in a project to be useful in futur
 "
 players: "3-12"
 playtime: "15-20"
-phase: "Playing"
+meetingphase: "Wrapping up"
+groupphase: "Performing"
 date:   2014-04-20 09:11:03
 imageurl: "/img/camino_al_exito.png"
 categories: jekyll update test

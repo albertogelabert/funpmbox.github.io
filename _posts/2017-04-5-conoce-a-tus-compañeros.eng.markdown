@@ -6,7 +6,8 @@ goal: "&bull; To discover the hobbies, activities and preferences of team member
 "
 players: "6-12"
 playtime: "10-15"
-phase: "Playing"
+meetingphase: "Warming up"
+groupphase: "Forming"
 date:   2014-04-20 09:11:03
 imageurl: "/img/conoce_a_tus_compañeros.png"
 categories: jekyll update test

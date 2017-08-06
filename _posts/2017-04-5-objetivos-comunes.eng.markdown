@@ -5,7 +5,8 @@ goal: " &bull;  To agree and prioritize the goals to be met by the team in the s
 "
 players: "3-12"
 playtime: "15-20"
-phase: "Playing"
+meetingphase: "Wrapping up"
+groupphase: "Norming"
 date:   2014-04-20 09:11:03
 imageurl: "/img/camino_al_exito.png"
 categories: jekyll update test
