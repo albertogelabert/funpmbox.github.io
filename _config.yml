@@ -162,6 +162,21 @@ contact_title:
   esp: CONTACTO
 
 #########################
+# Post
+#########################
+post_goal_string:
+  eng: "Goal:"
+  esp: "Objetivo:"
+
+post_how_string:
+  eng: "How to play:"
+  esp: "Cómo jugar:"
+
+post_material_string:
+  eng: "Material:"
+  esp: "Activos:"
+
+#########################
 # Footer
 #########################
 footer_contact_string:
