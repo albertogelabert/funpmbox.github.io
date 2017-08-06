@@ -17,46 +17,169 @@ navbar_home_string:
 navbar_games_link:
   esp: /juegos.html
   eng: /games.html
+
+navbar_contact_link:
+  esp: /contacto.html
+  eng: /contact.html
+
+navbar_contact_string:
+  esp: Contacto
+  eng: Contact
+
 navbar_games_string:
   esp: Juegos
   eng: games
 
 #########################
+# Index: hero
+#########################
+
+index_hero_title:
+  eng: gdf
+  esp: ¡DIVIERTETE TRABAJANDO!
+
+#########################
+# Index: first box
+#########################
+
+index_highlights_title:
+  eng: gdf
+  esp: Trabajar así es la BOMBAA
+
+index_highlights_feature1_title:
+  eng: gdf
+  esp: Involucra al equipo
+
+index_highlights_feature1_content:
+  eng: gdf
+  esp: PMBOX contiene actividades que aumentan la cohesión de los equipos
+
+index_highlights_feature2_title:
+  eng: gdf
+  esp: Anima al equipo
+
+index_highlights_feature2_content:
+  eng: gdf
+  esp: Identifica posibles problemas que pueden afectar en la felicidad y la productividad del equipo
+
+index_highlights_feature3_title:
+  eng: gdf
+  esp: Premia al empleado
+
+index_highlights_feature3_content:
+  eng: gdf
+  esp: Realiza actividades que aumenten el confort del empleado en el proyecto
+
+#########################
 # Index: first box
 #########################
 index_first_box_title:
-  esp: título
-  eng: The title rocks
+  eng: gdf
+  esp: Beneficios FunPMBOX en empresas
 
 index_first_box_desc:
-  esp: Esto es la descripcion de la caja
-  eng: This is the description of the BOX
+  eng: Esto es la descripcion de la caja
+  esp: |
+       <p>Este producto ha sido creado con la finalidad de aumentar la felicidad y el rendimiento del empleado. Entre los principales beneficios se encuentran:</p>
+       <ul><li>-Aumento de la productividad de los empleados</li>
+       <li>-Cohesión del equipo</li>
+       <li>-Prevención de riesgos</li>
+       <li>-Gestión de riesgos</li></ul>
+
+
 
 #########################
 # Index: second box
 #########################
 index_second_box_title:
-  esp: título
-  eng: The title rocks
+  eng: título
+  esp: Actividades de FunPMBOX
 
 index_second_box_desc:
-  esp: Esto es la descripcion de la caja
-  eng: This is the description of the BOX
+  eng: Esto es la descripcion de la caja
+  esp: |
+        <p>FunPMBOX incluye un conjunto de 15 actividades con sus respectivos activos para jugar.</p>
+        <p>¿ Te gustaría conocer las actividades que incluye la caja?</p>
+
+#########################
+# Index: buy me box
+#########################
+
+index_buyme_box_title:
+  eng: title
+  esp: ¿Quieres comprar esta caja?
+
+index_buyme_box_content:
+  eng: content
+  esp: Si deseas adquirir esta caja no dudes en contactar con nosotros. Nos pondremos en contacto contigo
+
+
 
 #########################
 # Index: third box
 #########################
 index_third_box_title:
-  esp: título
-  eng: The title rocks
+  eng: título
+  esp: Dónde surgió FunPMBOX
 
 index_third_box_desc:
-  esp: Esto es la descripcion de la caja
-  eng: This is the description of the BOX
+  eng: Esto es la descripcion de la caja
+  esp: |
+        <p>FunPMBOX surgió de un proyecto de colaboración en la Universidad de les Illes Balears.</p>
+        <p>Si quieres adquirir nuestro producto, por favor contacta con nosotros.</p>
+#########################
+# Games: Hero
+#########################
+games_hero_title:
+  eng: título
+  esp: ¿ Cómo jugar?
+
+games_hero_content:
+  eng: content
+  esp: Selecciona un juego de la lista inferior. Para realizar las actividades es necesario tener los activos que incluye la caja.
+
+
+
+#########################
+# Footer
+#########################
+footer_contact_string:
+  eng: Contact
+  esp: Contacto
+
+footer_languages_string:
+  eng: Languages
+  esp: Idiomas
+
+#########################
+# Buttons
+#########################
+button_play_string:
+  eng: Play
+  esp: Jugar
+
+button_play_link:
+  eng: /games.html
+  esp: /juegos.html
+
+button_contact_string:
+  eng: Contact
+  esp: Contactar
+
+button_contact_link:
+  eng: /contact.html
+  esp: /contacto.html
+
+button_send_string:
+  eng: Send
+  esp: Enviar
+  
+button_select_string:
+  eng: SELECT
+  esp: SELECCIONAR
 
 ---
 #layout: default
 comments: true
 # Disqus config
 ---
-
