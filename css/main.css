@@ -1568,8 +1568,7 @@ a:visited {
     width: 100%;
     font-size: 6vh;
     -webkit-animation: fadein 0.8s;
-            animation: fadein 0.8s;
-    z-index: 2; }
+            animation: fadein 0.8s; }
   .postheader .stats {
     position: relative;
     top: 415px;
