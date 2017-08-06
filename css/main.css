@@ -1453,8 +1453,8 @@ a {
       background-color: #444444; }
 
 .contact-form {
-  padding: 30px;
-  padding-top: 100px;
+  border-radius: 15px;
+  padding: 100px 30px 30px;
   background-color: #24313c;
   margin-bottom: 250px;
   top: 150px;
@@ -1465,8 +1465,10 @@ a {
   color: #FFFFFF; }
   .contact-form h1 {
     font-size: 35px; }
-  .contact-form input, .contact-form textarea {
-    margin: 0px;
+  .contact-form input,
+  .contact-form textarea {
+    border-radius: 10px;
+    margin: 0;
     padding: 10px;
     background-color: #24313c;
     color: #FFFFFF;
@@ -1474,18 +1476,19 @@ a {
     width: 90%;
     margin-bottom: 30px;
     font-size: 20px; }
-    .contact-form input:focus, .contact-form textarea:focus {
+    .contact-form input:focus,
+    .contact-form textarea:focus {
       border-color: #1ab188;
       outline: 0; }
   .contact-form .button-form {
+    border-radius: 35px;
     background-color: #1ab188;
     color: white;
     font-size: 30px;
     padding: 10px;
     margin-bottom: 100px;
     max-width: 300px;
-    margin: auto;
-    margin-bottom: 30px; }
+    margin: auto auto 30px; }
     .contact-form .button-form:hover {
       background-color: #179b77; }
 

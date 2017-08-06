@@ -35,7 +35,7 @@ navbar_games_string:
 #########################
 
 index_hero_title:
-  eng: gdf
+  eng: HAVE FUN WHILE GAMING !
   esp: ¡DIVIERTETE TRABAJANDO!
 
 #########################
@@ -43,42 +43,47 @@ index_hero_title:
 #########################
 
 index_highlights_title:
-  eng: gdf
+  eng: Working this way is AWESOME
   esp: Trabajar así es la BOMBAA
 
 index_highlights_feature1_title:
-  eng: gdf
+  eng: Involve the team
   esp: Involucra al equipo
 
 index_highlights_feature1_content:
-  eng: gdf
+  eng: PMBOX constains a set of activities that will foster the team conversation
   esp: PMBOX contiene actividades que aumentan la cohesión de los equipos
 
 index_highlights_feature2_title:
-  eng: gdf
+  eng: Encourage the team!
   esp: Anima al equipo
 
 index_highlights_feature2_content:
-  eng: gdf
+  eng: Identify potential issues that can affect team happiness and productivity
   esp: Identifica posibles problemas que pueden afectar en la felicidad y la productividad del equipo
 
 index_highlights_feature3_title:
-  eng: gdf
-  esp: Premia al empleado
+  eng: Reward your employees
+  esp: Premia a tus empleados
 
 index_highlights_feature3_content:
-  eng: gdf
-  esp: Realiza actividades que aumenten el confort del empleado en el proyecto
+  eng: Perform activities that increase employee comfort in projects
+  esp: Realiza actividades que aumenten el confort del empleado en los proyectos
 
 #########################
 # Index: first box
 #########################
 index_first_box_title:
-  eng: gdf
+  eng: FunPMBOX benefits in companies
   esp: Beneficios FunPMBOX en empresas
 
 index_first_box_desc:
-  eng: Esto es la descripcion de la caja
+  eng: |
+       <p>This product has been created with the purpose of increasing employee happiness and performance. Among the main benefits are:</p>
+       <ul><li>-Increased employee productivity</li>
+       <li>-Team Cohesion</li>
+       <li>-Risks prevention</li>
+       <li>-Risk management</li></ul>
   esp: |
        <p>Este producto ha sido creado con la finalidad de aumentar la felicidad y el rendimiento del empleado. Entre los principales beneficios se encuentran:</p>
        <ul><li>-Aumento de la productividad de los empleados</li>
@@ -92,13 +97,15 @@ index_first_box_desc:
 # Index: second box
 #########################
 index_second_box_title:
-  eng: título
+  eng: FunPMBOX Activities
   esp: Actividades de FunPMBOX
 
 index_second_box_desc:
-  eng: Esto es la descripcion de la caja
+  eng: |
+        <p>FunPMBOX includes a set of 15 activities with their respective assets to play</p>
+        <p>Would you like to know the activities that the box includes?</p>
   esp: |
-        <p>FunPMBOX incluye un conjunto de 15 actividades con sus respectivos activos para jugar.</p>
+        <p>FunPMBOX incluye un conjunto de 15 actividades con sus respectivos activos para jugar</p>
         <p>¿ Te gustaría conocer las actividades que incluye la caja?</p>
 
 #########################
@@ -106,11 +113,11 @@ index_second_box_desc:
 #########################
 
 index_buyme_box_title:
-  eng: title
+  eng: Do you want to buy this box?
   esp: ¿Quieres comprar esta caja?
 
 index_buyme_box_content:
-  eng: content
+  eng: If you wish to purchase this box do not hesitate to contact us. We will contact you
   esp: Si deseas adquirir esta caja no dudes en contactar con nosotros. Nos pondremos en contacto contigo
 
 
@@ -119,26 +126,40 @@ index_buyme_box_content:
 # Index: third box
 #########################
 index_third_box_title:
-  eng: título
+  eng: Where FunPMBOX was created
   esp: Dónde surgió FunPMBOX
 
 index_third_box_desc:
-  eng: Esto es la descripcion de la caja
+  eng: |
+        <p>FunPMBOX emerged from a collaborative project at the University of the Balearic Islands</p>
+        <p>If you want to buy our product, please contact us</p>
   esp: |
-        <p>FunPMBOX surgió de un proyecto de colaboración en la Universidad de les Illes Balears.</p>
-        <p>Si quieres adquirir nuestro producto, por favor contacta con nosotros.</p>
+        <p>FunPMBOX surgió de un proyecto de colaboración en la Universidad de les Illes Balears</p>
+        <p>Si quieres adquirir nuestro producto, por favor contacta con nosotros</p>
 #########################
 # Games: Hero
 #########################
 games_hero_title:
-  eng: título
+  eng: How to play?
   esp: ¿ Cómo jugar?
 
 games_hero_content:
-  eng: content
+  eng: Select a game from the list below. To carry out the activities it is necessary to have the assets that the box includes.
   esp: Selecciona un juego de la lista inferior. Para realizar las actividades es necesario tener los activos que incluye la caja.
+#########################
+# Games: List
+#########################
 
+games_list_title:
+  eng: "Select a game:"
+  esp: "Selecciona un juego:"
 
+#########################
+# Contact
+#########################
+contact_title:
+  eng: CONTACT
+  esp: CONTACTO
 
 #########################
 # Footer
@@ -155,25 +176,25 @@ footer_languages_string:
 # Buttons
 #########################
 button_play_string:
-  eng: Play
-  esp: Jugar
+  eng: PLAY
+  esp: JUGAR
 
 button_play_link:
   eng: /games.html
   esp: /juegos.html
 
 button_contact_string:
-  eng: Contact
-  esp: Contactar
+  eng: CONTACT
+  esp: CONTACTO
 
 button_contact_link:
   eng: /contact.html
   esp: /contacto.html
 
 button_send_string:
-  eng: Send
-  esp: Enviar
-  
+  eng: SEND
+  esp: ENVIAR
+
 button_select_string:
   eng: SELECT
   esp: SELECCIONAR
