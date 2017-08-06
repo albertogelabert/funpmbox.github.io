@@ -15,12 +15,42 @@
       <li><a href="/games.html"><div class="button-hv">All Games</div></a></li>-->
       <li><a href="{{ site.navbar_home_link[page.lang] }}"><div class="button-hv">{{ site.navbar_home_string[page.lang] }}</div></a></li>
       <li><a href="{{ site.navbar_games_link[page.lang] }}"><div class="button-hv">{{ site.navbar_games_string[page.lang] }}</div></a></li>
+      <li><a href="{{ site.navbar_contact_link[page.lang] }}"><div class="button-hv">{{ site.navbar_contact_string[page.lang] }}</div></a></li>
+
       <hr><hr>
-      <li>
+      <!--<li>
         <div class="button">
-          <p>COMPRAR JUEGO</p>
+          <p>English</p>
         </div>
       </li>
+      <li>
+        <div class="button">
+          <p>Castellano</p>
+        </div>
+      </li>-->
+
+     {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+     {% for post in posts %}
+     <li>
+       <a href="{{ page.url }}" class="{{ page.lang }}">
+         <div class="button">
+           <p>{{ page.lang }}</p>
+         </div>
+       </a>
+     </li>
+     {% endfor %}
+
+     {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+     {% for page in pages %}
+     <li>
+       <a href="{{ page.url }}" class="{{ page.lang }}">
+         <div class="button">
+           <p>{{ page.lang }}</p>
+         </div>
+       </a>
+     </li>
+     {% endfor %}
+
 
       </ul>
   </div>

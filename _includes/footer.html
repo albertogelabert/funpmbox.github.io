@@ -44,12 +44,12 @@
           <div class="row">
 
             <div class="contact col s11 m5">
-          <h1>Contacto</h1>
+          <h1>{{ site.footer_contact_string[page.lang] }}</h1>
           <h2>Universitat de les Illes Balears.Cra. de Valldemossa,km 7.5. Palma (Illes Balears).</br></br>Tel.: +34 - 971 17 30 00.</h2>
         </div>
         <div class="languages col s11 m5">
 
-           <h1>Idiomas</h1>
+           <h1>{{ site.footer_languages_string[page.lang] }}</h1>
           <ul>
           {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
           {% for post in posts %}
@@ -65,7 +65,7 @@
           </li>
           {% endfor %}
           </ul>
-          
+
         </div>
 
           </div>
@@ -76,5 +76,3 @@
     </div>
 
   </div>
-
-
