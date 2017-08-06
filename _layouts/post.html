@@ -26,9 +26,9 @@
       <div class="container">
 
         <div class="post">
-          <h1><i class="fa fa-bullseye"></i> Objetivo:</h1>
+          <h1><i class="fa fa-bullseye"></i>  {{ site.post_goal_string[page.lang] }}</h1>
           {{page.goal}}
-          <h1><i class="fa fa-book"></i> Cómo jugar :</h1>
+          <h1><i class="fa fa-book"></i>  {{ site.post_how_string[page.lang] }}</h1>
           {{content}}
         </div>
 
@@ -56,7 +56,7 @@
   </div>
 
           <div class="text col s12 m8">
-            <h1><i class="fa  fa-cogs"></i> Activos:</h1>
+            <h1><i class="fa  fa-cogs"></i>  {{ site.post_material_string[page.lang] }}</h1>
             <p>{{page.material}}</p>
             </div>
 
