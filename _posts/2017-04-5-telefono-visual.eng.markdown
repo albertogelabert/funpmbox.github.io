@@ -9,7 +9,7 @@ playtime: "10-15"
 meetingphase: "Warming up"
 groupphase: "Forming"
 date:   2014-04-20 09:11:03
-imageurl: "/img/abril_aguas_mil.png"
+imageurl: "/img/abril_aguas_mil.jpg"
 categories: jekyll update test
 lang: eng
 material: "

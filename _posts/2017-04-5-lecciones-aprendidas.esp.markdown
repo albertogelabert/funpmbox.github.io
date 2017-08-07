@@ -8,7 +8,7 @@ playtime: "15-20"
 meetingphase: "Conclusión"
 groupphase: "Desempeño"
 date:   2014-04-20 09:11:03
-imageurl: "/img/camino_al_exito.png"
+imageurl: "/img/lecciones_aprendidas.esp.jpg"
 categories: jekyll update test
 lang: esp
 material: "

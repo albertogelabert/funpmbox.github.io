@@ -10,7 +10,7 @@ playtime: "20-25"
 meetingphase: "Playing"
 groupphase: "Performing"
 date:   2014-04-20 09:11:03
-imageurl: "/img/camino_al_exito.png"
+imageurl: "/img/camino_al_exito.jpg"
 categories: jekyll update test
 lang: eng
 material: "

@@ -8,7 +8,7 @@ playtime: "15-20"
 meetingphase: "Warming up"
 groupphase: "Norming"
 date:   2014-04-20 09:11:03
-imageurl: "/img/conoce_a_tus_compañeros.png"
+imageurl: "/img/que_esperais_de_mi.png"
 categories: jekyll update test
 lang: eng
 material: "
