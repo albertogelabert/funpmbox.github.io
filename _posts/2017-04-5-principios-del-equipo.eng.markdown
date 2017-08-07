@@ -9,7 +9,7 @@ playtime: "15-20"
 meetingphase: "Warming up"
 groupphase: "Storming"
 date:   2014-04-20 09:11:03
-imageurl: "/img/definir_principios.png"
+imageurl: "/img/definir_principios.jpg"
 categories: jekyll update test
 lang: eng
 material: "

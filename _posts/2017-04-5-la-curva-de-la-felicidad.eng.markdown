@@ -9,7 +9,7 @@ playtime: "10-15"
 meetingphase: "Playing"
 groupphase: "Performing"
 date:   2014-04-20 09:11:03
-imageurl: "/img/conoce_a_tus_compañeros.png"
+imageurl: "/img/curva_felicidad.jpg"
 categories: jekyll update test
 lang: eng
 material: "
