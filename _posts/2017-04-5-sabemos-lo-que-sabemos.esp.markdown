@@ -9,7 +9,7 @@ playtime: "20-25"
 meetingphase: "Desarrollo"
 groupphase: "Conflicto"
 date:   2014-04-20 09:11:03
-imageurl: "/img/conoce_a_tus_compañeros.png"
+imageurl: "/img/sabemos_lo_que_sabemos.esp.png"
 categories: jekyll update test
 lang: esp
 material: "
