@@ -1,4 +1,5 @@
 ---
+ref: rolesweplay
 layout: post
 title: "Roles we play "
 goal: "&bull; To discover the hobbies, activities and preferences of team members.<br></br>

@@ -1,4 +1,5 @@
 ---
+ref: weareateam
 layout: post
 title: "¡Somos un equipo! "
 goal: "&bull; Consensuar entre todos los miembros los aspectos que definen al equipo.<br></br>

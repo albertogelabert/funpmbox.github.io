@@ -1,4 +1,5 @@
 ---
+ref: rolesweplay
 layout: post
 title: "Conoce a tus compañeros "
 goal: "&bull; Descubrir las aficiones, actividades y gustos de los integrantes de un equipo.<br></br>

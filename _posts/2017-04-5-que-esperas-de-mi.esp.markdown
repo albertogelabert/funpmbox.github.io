@@ -1,4 +1,5 @@
 ---
+ref: roleexpectation
 layout: post
 title: "¿Qué esperáis de mí? "
 goal: "&bull; Identificar y consensuar las expectativas que tienen los miembros del equipo sobre cada uno de los roles definidos.<br></br>
@@ -25,7 +26,7 @@ material: "
 
 	- &bull; El eje horizontal se llamará “A”.
 
-- 3- Pide a los participantes que escriban en notas adhesivas sus expectativas sobre los diferentes perfiles del equipo. Pide que peguen las notas en la fila “De” correspondiente a su propio rol y en la columna “A” la que vaya dirigida su expectativa. 
+- 3- Pide a los participantes que escriban en notas adhesivas sus expectativas sobre los diferentes perfiles del equipo. Pide que peguen las notas en la fila “De” correspondiente a su propio rol y en la columna “A” la que vaya dirigida su expectativa.
 
 - 4- Elige un rol. Pide que lea en voz alta las notas en su fila. Inicia un debate con el resto de roles implicados.
 

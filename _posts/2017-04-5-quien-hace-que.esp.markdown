@@ -1,4 +1,5 @@
 ---
+ref: wwwstepstoaction
 layout: post
 title:  "¿Quién hace qué? "
 goal: " &bull;  Definir y planificar las tareas que hay que llevar a cabo durante el próximo periodo.</br></br>

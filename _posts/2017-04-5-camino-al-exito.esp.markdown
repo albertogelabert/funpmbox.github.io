@@ -1,4 +1,5 @@
 ---
+ref: speedcar
 layout: post
 title:  "Camino al éxito "
 goal: " &bull;  Establecer fortalezas y debilidades del equipo que repercuten en su productividad.<br></br>

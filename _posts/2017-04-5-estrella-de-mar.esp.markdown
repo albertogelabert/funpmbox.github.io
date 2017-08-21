@@ -1,4 +1,5 @@
 ---
+ref: starfish
 layout: post
 title:  "Estrella de mar "
 goal: " &bull;  Analizar las tareas que está realizando el equipo, para conocer cuáles hay que potenciar y cuáles dejar de hacer.

@@ -1,4 +1,5 @@
 ---
+ref: facebook
 layout: post
 title:  "Objetivos comunes "
 goal: " &bull;  Consensuar y priorizar los objetivos a cumplir por el equipo tanto a corto, medio y/o largo plazo.

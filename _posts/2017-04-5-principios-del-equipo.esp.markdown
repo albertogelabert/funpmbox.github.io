@@ -1,4 +1,5 @@
 ---
+ref: teamprinciples
 layout: post
 title:  "Los principios del equipo "
 goal: "&bull; Definir los principios del equipo de una forma democrática. Estos principios deben definir los aspectos a potenciar y a evitar por los miembros del equipo."

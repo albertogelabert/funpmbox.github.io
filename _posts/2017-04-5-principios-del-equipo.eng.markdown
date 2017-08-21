@@ -1,4 +1,5 @@
 ---
+ref: teamprinciples
 layout: post
 title:  "Defining the team principles "
 goal: " &bull;  To define the principles of the team in a democratic way.<br></br>
