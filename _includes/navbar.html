@@ -29,7 +29,7 @@
         </div>
       </li>-->
 
-     {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+     <!--{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
      {% for post in posts %}
      <li>
        <a href="{{ page.url }}" class="{{ page.lang }}">
@@ -49,7 +49,12 @@
          </div>
        </a>
      </li>
-     {% endfor %}
+     {% endfor %}-->
+  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+  {% for post in posts %} <li><a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}"><div class="button"><p>{{ post.lang }}</p></div></a></li>{% endfor %}
+
+  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+  {% for page in pages %}<li><a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}"><div class="button"><p>{{ page.lang }}</p></div></a></li>{% endfor %}
 
 
       </ul>

@@ -1,4 +1,5 @@
 ---
+ref: visualphone
 layout: post
 title:  "Visual phone "
 goal: " &bull;  To break the ice between the members of a team.</br></br>
@@ -38,7 +39,7 @@ material: "
 	- <b>c.</b> pass the 3-note blocks to the members 3.
 
 - 5- Request members 3 to:
-	
+
 	- <b>a.</b> write, on the empty note, a sentence that represents the drawing, and
 
 	- <b>b.</b> place it on the top of the 3-note block, so that in the lower note the original sentence is found, in the central one, the drawing, and in the upper one, the new sentence, and
