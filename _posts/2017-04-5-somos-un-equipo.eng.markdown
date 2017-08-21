@@ -1,4 +1,5 @@
 ---
+ref: weareateam
 layout: post
 title: "The team is - is not - does - does not "
 goal: "&bull; To agree among all the members on the aspects that define the team.<br></br>

@@ -1,4 +1,5 @@
 ---
+ref: lessonslearned
 layout: post
 title:  "Lecciones aprendidas "
 goal: " &bull;  Recopilar las lecciones aprendidas en un proyecto para que sean de utilidad en futuros proyectos.
@@ -34,7 +35,7 @@ material: "
 
 	- d. “No planificado y satisfactorio”: Contendrá aquellos aspectos que no estaban planificados y han salido bien.
 
-- 2- Pide a los participantes que escriban en notas adhesivas todos aquellos hechos que han ocurrido en el proyecto. Utiliza notas de un color para los hechos positivos y notas de otro color para los negativos. Pide que sitúen cada nota en el cuadrante donde mejor encaje. 
+- 2- Pide a los participantes que escriban en notas adhesivas todos aquellos hechos que han ocurrido en el proyecto. Utiliza notas de un color para los hechos positivos y notas de otro color para los negativos. Pide que sitúen cada nota en el cuadrante donde mejor encaje.
 
 - 3- Inicia un debate sobre las notas en la matriz. Escribe las lecciones aprendidas en notas adhesivas de un color diferente a las anteriores.
 

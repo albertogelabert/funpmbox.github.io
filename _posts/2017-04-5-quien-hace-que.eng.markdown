@@ -1,4 +1,5 @@
 ---
+ref: wwwstepstoaction
 layout: post
 title:  "Who-What-When steps to action "
 goal: " &bull;  To define and plan the tasks to be carried out during the next period.</br></br>

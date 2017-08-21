@@ -1,4 +1,5 @@
 ---
+ref: starfish
 layout: post
 title:  "Starfish "
 goal: " &bull;  To analyse the tasks that the team are doing, in order to know which ones to boost and which ones to stop doing.

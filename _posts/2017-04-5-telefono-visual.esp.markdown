@@ -1,4 +1,5 @@
 ---
+ref: visualphone
 layout: post
 title:  "Teléfono visual "
 goal: " &bull;  Romper el hielo entre los miembros de un equipo de trabajo.</br></br>
@@ -27,7 +28,7 @@ material: "
 
 	- <b>b.</b> la cubran con otra nota en blanco, y
 
-	- <b>c.</b> pasen los bloques de 3 notas a los miembros 2. 
+	- <b>c.</b> pasen los bloques de 3 notas a los miembros 2.
 
 - 4- Pide a los miembros 2 que:
 
@@ -38,7 +39,7 @@ material: "
 	- <b>c.</b> pasen los bloques de 3 notas a los miembros 3.
 
 - 5- Pide a los miembros 3 que:
-	
+
 	- <b>a.</b> escriban, en la nota vacía, una frase que represente el dibujo, y
 
 	- <b>b.</b> que la coloquen la primera del bloque de 3 notas, de modo que en la nota inferior se encuentre la frase original, en la central, el dibujo, y en la superior, la nueva frase, y

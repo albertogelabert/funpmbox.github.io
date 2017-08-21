@@ -1,4 +1,5 @@
 ---
+ref: groupknowledge
 layout: post
 title: "Understanding the group knowledge "
 goal: "&bull; To identify the knowledge and skills of a team.<br></br>
@@ -22,7 +23,7 @@ material: "
 - 1- Start a brainstorming to get a list of all the knowledge and/or skills that a team like yours should have. Write each knowledge on a sticky note.
 
 - 2- Draw a matrix with the following 4 quadrants:
-	
+
 	- <b>a.</b> We know we know. The team is sure that it has the needed knowledge.
 
 	- <b>b.</b> We did not know that we know. The team was not aware that it possesses the needed knowledge.
